@@ -22,12 +22,14 @@ const Construction_Industry = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Construction Industry Email List"} />
+      <Breadcrumb title={"Construction Industry Email List"} 
+        subcontent={"Connect with the construction industry prospects in the US with a smart move by utilizing Galileo Data Construction Industry Email List, which can work as your marketing tool and reach all the potential customers that your business requires to flourish. Our Construction Industry Email List has much more to offer to you than just a database, with our Construction Industry Email List you can reach your prospects online, offline and through multiple channels that you choose to market through."}
+      />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -57,7 +59,7 @@ const Construction_Industry = () => {
               </div>
             </div>
             <div
-              className='col-lg-8'
+              className='col-lg-7'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -68,60 +70,35 @@ const Construction_Industry = () => {
                 <span>Construction Industry Email List</span>  Email List 
                 
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                Connect with the construction industry prospects in the US with a smart move by utilizing Galileo 
-                Data Construction Industry Email List, which can work as your marketing tool and reach all the potential 
-                customers that your business requires to flourish. Our Construction Industry Email List has much more to 
-                offer to you than just a database, with our Construction Industry Email List you can reach your prospects 
-                online, offline and through multiple channels that you choose to market through.
-</p>
-                <ul className='single-list-inner style-check style-check mb-3'>
+              
+                <ul className='single-list-inner style-check style-check mb-3 pt-4'>
 
-                          <li>
+                          <li className="pt-3">
                             <FaCheckCircle /> We believe our List of Builders and Construction Companies contains the most accurate and update information 
                             possible. After all, few other suppliers go to such lengths to ensure that the data you purchase is as accurate and up to date.
+                          </li>
+
+                          <li className="pt-3"> <FaCheckCircle /> Galileo Data Construction Industry Lists have several contacts within Heavy Construction Contractors, 
+                        General Building Contractors and Special Trade Contractors.
+                          </li>
+  <li className="pt-3">
+                            <FaCheckCircle /> Our customized Construction Industry Email addresses can enable you to reach key decision makers or the business 
+                            executives within the Construction Industry worldwide.
+                          </li>
+ <li className="pt-3">
+                            <FaCheckCircle /> But we also recognize that no database can be perfect. Businesses are constantly opening, 
+                            closing and relocating. So it’s natural to receive a small amount of outdated records.
                           </li>
                 </ul>
               </div>
             </div>
           </div>
 
-          <div className='row pd-bottom-100'>
-                      <div className='col-md-4 mt-5'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                        <li> <FaCheckCircle /> Galileo Data Construction Industry Lists have several contacts within Heavy Construction Contractors, 
-                        General Building Contractors and Special Trade Contractors.
-                          </li>
-                        
-                        </ul>
-                      </div>
-
-                      <div className='col-md-4  mt-5'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
-                            <FaCheckCircle /> Our customized Construction Industry Email addresses can enable you to reach key decision makers or the business 
-                            executives within the Construction Industry worldwide.
-                          </li>
-                          <br/>
-                  
-      </ul>
-                      </div>
-
-                      <div className='col-md-4  mt-5'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
-                            <FaCheckCircle /> But we also recognize that no database can be perfect. Businesses are constantly opening, 
-                            closing and relocating. So it’s natural to receive a small amount of outdated records.
-                          </li>
-                          <br/>
-                  
-      </ul>
-                      </div>
-                    </div>
+      
         </div>
       </div>
 
-      <div className='about-area pd-bottom-80'>
+      <div className='about-area pd-bottom-80 pt-5'>
         <div className='container'>
           <div className='row'>
            
@@ -439,8 +416,8 @@ We have sourced the construction industry data from a multitude of event-driven 
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Biotech & Pharmaceutical Email List</span> 
-                   
+                  Reach our expert professionals   of <span>Construction Industry Email List</span> 
+                 
                   </h2>
                   <p className='content'>
                     For your car we will do everything advice design in us

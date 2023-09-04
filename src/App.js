@@ -28,6 +28,11 @@ import Logistic_and_Distribution from "./pages/Logistic_and_Distribution";
 import Manufacturing from "./pages/Manufacturing";
 import Retail from "./pages/Retail";
 import Real_Estate from "./pages/Real_Estate";
+import Telecommunication_Company from "./pages/Telecommunication_Company";
+import Travel_and_Tourism from "./pages/Travel_and_Tourism";
+import Utility_And_Energy from "./pages/Utility_And_Energy";
+import Data_Cleaning from "./pages/Data_Cleaning";
+import Data_Appending from "./pages/Data_Appending";
 
 function App() {
   useEffect(() => {
@@ -67,6 +72,12 @@ function App() {
         <Route exact path='/Manufacturing' element={<Manufacturing />} />
         <Route exact path='/Retail' element={<Retail />} />
         <Route exact path='/Real_Estate' element={<Real_Estate />} />
+        <Route exact path='/Telecommunication_Company' element={<Telecommunication_Company />} />
+        <Route exact path='/Travel_and_Tourism' element={<Travel_and_Tourism />} />
+        <Route exact path='/Utility_And_Energy' element={<Utility_And_Energy />} />
+        <Route exact path='/Data_Cleaning' element={<Data_Cleaning />} />
+        <Route exact path='/Data_Appending' element={<Data_Appending />} />
+        
         
         
         

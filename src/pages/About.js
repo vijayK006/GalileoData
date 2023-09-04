@@ -16,7 +16,9 @@ const About = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"About Galileo Data Inc"} />
+      <Breadcrumb
+       title={"About Galileo Data Inc"} 
+      subcontent={"We have seen the data market at its best, and worst. Irrespective of how tricky the situation is, our data-driven  approach is equipped to get you through and transform your investments into sales and marketing opportunities."} />
 
       {/* About Area One */}
       <AboutAreaOne />

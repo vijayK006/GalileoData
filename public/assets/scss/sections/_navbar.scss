@@ -63,7 +63,8 @@
 .navbar-area {
   position: relative;
   z-index: 99;
-  margin-top: 20px;
+  // margin-top: 20px;
+  background-color: black;
   .nav-container {
     transition: all 0.4s;
     position: relative;
@@ -762,7 +763,8 @@
   height: 40px;
   transition-duration: 0.5s;
   border: 0;
-  background: transparent;
+  background: white;
+  border-radius: 5px;
 
   .icon-left {
     transition-duration: 0.5s;
@@ -771,7 +773,7 @@
     width: 11px;
     top: 18px;
     background-color: var(--heading-color);
-    left: 7px;
+    left: 11px;
     &:before {
       transition-duration: 0.5s;
       position: absolute;
@@ -905,7 +907,7 @@
     text-align: left;
   }
   .navbar-collapse {
-    background: $color-white;
+    background: black;
     margin-top: 0px;
     width: 100%;
   }
@@ -1003,7 +1005,7 @@
     background: none;
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
-    color: #333333;
+    color: white;
   }
 }
 

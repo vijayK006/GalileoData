@@ -18,7 +18,8 @@ const Hospitality = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Hospitality Email List"} />
+      <Breadcrumb title={"Hospitality Email List"}
+      subcontent={"Galileo Data Inc industry-leading email marketing lists of hospitality professionals facilitates marketers in retaining, growing and reactivating current and prospective clients. The hospitality industry encompasses restaurants, hotels, inns, motels, lodging, event planners, cruise liners and more. With the growth in global tourism, the hospitality industry has become one of the most organized sectors across the globe and is growing at a fast pace. This sector attracts huge investments and offers enormous growth prospects for enterprises. The hospitality industry acts as a source of revenue for many countries and is an important contributor to a country’s development. Partnering with Galileo Data’s targeted email lists results in highly targeted hospitality marketing campaigns."} />
 
       <div className='about-area pd-top-120'>
         <div className='container'>
@@ -66,17 +67,7 @@ const Hospitality = () => {
                  
                 </h2>
 
-                <p>Galileo Data Inc industry-leading email marketing lists of hospitality professionals 
-                      facilitates marketers in retaining, growing and reactivating current and prospective clients. 
-                      The hospitality industry encompasses restaurants, hotels, inns, motels, lodging, event planners, 
-                      cruise liners and more. With the growth in global tourism, the hospitality industry has become 
-                      one of the most organized sectors across the globe and is growing at a fast pace. This sector 
-                      attracts huge investments and offers enormous growth prospects for enterprises. The hospitality 
-                      industry acts as a source of revenue for many countries and is an important contributor to a country’s 
-                      development. Partnering with Galileo Data’s  targeted email lists results in highly targeted hospitality
-                       marketing campaigns. <br/> <br/> <b>All the lists on Galileo Data’s databases are opt-in and have been legally compiled according to each country’s marketing regulations.</b></p>
-
-                <div className='row'>
+                <div className='row pt-5'>
                       <div className='col-md-6'>
                         <ul className='single-list-inner style-check style-check mb-3'>
                           <li>
@@ -113,19 +104,21 @@ const Hospitality = () => {
                       </div>
                 
                     </div>
+
+                    <p className='content mb-4 mb-xl-5'>
+                The Hospitality Decision Makers business list has been meticulously researched and developed ensuring the quality of this business list is second to none. Continuously updated by a dedicated team of Tele-Researchers, 
+                the Hospitality Decision Makers list has an unbeatable 95% deliverability ensuring superior response rates.</p>
               </div>
             </div>
           </div>
 
-          <p className='content mb-4 mb-xl-5'>
-                The Hospitality Decision Makers business list has been meticulously researched and developed ensuring the quality of this business list is second to none. Continuously updated by a dedicated team of Tele-Researchers, 
-                the Hospitality Decision Makers list has an unbeatable 95% deliverability ensuring superior response rates.</p>
+        
         </div>
       </div>
 
       {/* Work Process One */}
           {/*==================== Work Process One start ====================*/}
-          <div className='work-process-area pd-bottom-120'>
+          <div className='work-process-area pd-bottom-120 pd-top-100'>
         <div className='container'>
        
         <div className="row pb-5">
@@ -214,7 +207,7 @@ Galileo Data helps you reach the important decision makers in the hospitality in
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Automobile-Automotive-Email-List</span> 
+                  Reach our expert professionals   of <span>Hospitality Email List</span> 
                    
                   </h2>
                   <p className='content'>

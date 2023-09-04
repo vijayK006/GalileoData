@@ -6,9 +6,9 @@ const AboutAreaOne = () => {
   return (
     <>
       {/* ================== AboutAreaOne start  ==================*/}
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
-          <div className='row align-items-center'>
+          <div className='row'>
             <div className='col-lg-6'>
               <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
@@ -51,10 +51,7 @@ const AboutAreaOne = () => {
 
                    
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                We have seen the data market at its best, and worst. Irrespective of how tricky the situation is, our data-driven 
-                approach is equipped to get you through and transform your investments into sales and marketing opportunities.
-                </p>
+            
                 <div className='row '>
                   <div className='col-md-6 mt-4 mb-4'>
                     <div className='single-about-inner'>

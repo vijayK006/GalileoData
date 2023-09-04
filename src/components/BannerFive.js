@@ -31,7 +31,7 @@ const BannerFive = () => {
                   data-aos-delay='250'
                   data-aos-duration='1500'
                 >
-                 High quality Leads at Market rates in the right amount​
+                 High Quality Leads at Market Rates in the right amount​
                 </h2>
                 <p
                   className='content pe-xl-4'

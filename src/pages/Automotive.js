@@ -20,12 +20,14 @@ const Automotive = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Automobile/Automotive Email List"} />
+      <Breadcrumb title={"Automobile/Automotive Email List"}
+      subcontent={"With our Automobile Industry Email and Mailing List target Automobile Dealers, Automobile Manufacturing and Auto Retail Sector. Our Automobile Industry List has thousands of Executive from Automobile Dealers, Car Washes, auto OEMs, Automotive Parts & Accessories Stores, Repair & Maintenance Services and more. You can pick the right step of the ladder and contact the right decision maker or the Executive Level titles within our Automobile Industry Email and Mailing List."}
+       />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -55,7 +57,7 @@ const Automotive = () => {
               </div>
             </div>
             <div
-              className='col-lg-8'
+              className='col-lg-7'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -67,20 +69,8 @@ const Automotive = () => {
 
                  
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                With our Automobile Industry Email and Mailing List target Automobile Dealers, Automobile Manufacturing 
-                and Auto Retail Sector. Our Automobile Industry List has thousands of Executive from Automobile Dealers, 
-                Car Washes, auto OEMs, Automotive Parts & Accessories Stores, Repair & Maintenance Services and more. You 
-                can pick the right step of the ladder and contact the right decision 
-                maker or the Executive Level titles within our Automobile Industry Email and Mailing List. </p>
-              
-
-                
-              </div>
-            </div>
-          </div>
-         
-          <div className='row'>
+               
+                <div className='row pt-4'>
                       <div className='col-md-6'>
                         <ul className='single-list-inner style-check style-check mb-3'>
                           <li>
@@ -150,6 +140,13 @@ const Automotive = () => {
                         </ul>
                       </div>
                     </div>
+
+                
+              </div>
+            </div>
+          </div>
+         
+  
           
         </div>
       </div>

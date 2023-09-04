@@ -18,9 +18,10 @@ const Logistic_and_Distribution = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Logistic and Distribution Email List"} />
+      <Breadcrumb title={"Logistic and Distribution Email List"}
+      subcontent={"Our database in heavy machinery, retail, industrial manufacturing and similar areas spans across many countries .Most of our custom-made lists contain contact details of business owners looking for a service and a list of customers who are fetching the information about the distributor. Manual and Automated methods are implemented to improve the supply chain information."} />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-6'>
@@ -64,13 +65,9 @@ const Logistic_and_Distribution = () => {
            How    <span>Galileo Data Inc </span> helps you?
                 
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                Our database in heavy machinery, retail, industrial manufacturing and similar areas spans across many 
-                countries .Most of our custom-made lists contain contact details of business owners looking for a 
-                service and a list of customers who are fetching the information about the distributor. Manual 
-                and Automated methods are implemented to improve the supply chain information.</p>
+           
 
-                <ul className='single-list-inner style-check style-check mb-3'>
+                <ul className='single-list-inner style-check style-check mb-3 pt-4'>
                           <li>
                             <FaCheckCircle /> Over the past few years, companies in the distribution and logistics
                              industry are under constant pressure to meet greater customer expectations, improve 

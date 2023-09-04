@@ -55,7 +55,7 @@ const NavBar = () => {
       ></div>
       {/* navbar start */}
       <nav className='navbar navbar-area navbar-expand-lg'>
-        <div className='container nav-container navbar-bg'>
+        <div className='container-fluid nav-container navbar-bg'>
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
@@ -77,11 +77,11 @@ const NavBar = () => {
               <img src={logo} alt='img' />
             </Link>
           </div>
-          <div className='nav-right-part nav-right-part-mobile'>
+          {/* <div className='nav-right-part nav-right-part-mobile'>
             <span className='search-bar-btn' onClick={searchActive}>
               <FaSearch />
             </span>
-          </div>
+          </div> */}
           <div
             className={
               active
@@ -96,8 +96,8 @@ const NavBar = () => {
  <li className='menu-item-has-children'>
                 <a href='#'>Our Data</a>
                 <ul className='sub-menu'>
-                  <li>
-                    <Link to='/Automotive'>Automotive</Link>
+                <li>
+                    <Link to='/Automotive'>Automation</Link>
                   </li>
                   <li>
                     <Link to='/Banking_And_Financial'>Banking And Financial</Link>
@@ -128,13 +128,24 @@ const NavBar = () => {
                     <Link to='/Manufacturing'>Manufacturing</Link>
                   </li>
 
-                  
                   <li>
                     <Link to='/Retail'>Retail</Link>
                   </li>
-
+                  
                   <li>
                     <Link to='/Real_Estate'>Real Estate</Link>
+                  </li>
+
+                  <li>
+                    <Link to='/Telecommunication_Company'>Telecommunication Company</Link>
+                  </li>
+
+                  <li>
+                    <Link to='/Travel_and_Tourism'>Travel and Tourism</Link>
+                  </li>
+
+                  <li>
+                    <Link to='/Utility_And_Energy'>Utility And Energy</Link>
                   </li>
                 </ul>
               </li>
@@ -160,19 +171,34 @@ const NavBar = () => {
                 </ul>
               </li> */}
               <li className='menu-item-has-children'>
-                <a href='#'>Service</a>
+                <a href='#'>Data Solutions</a>
                 <ul className='sub-menu'>
                   <li>
-                    <Link to='/service'>Service</Link>
+                    <Link to='/Data_Cleaning'>Data Cleaning</Link>
                   </li>
+
                   <li>
-                    <Link to='/service-details'>Service Single</Link>
+                    <Link to='/Data_Appending'>Data Appending</Link>
                   </li>
+
+                  <li>
+                    <Link to=''>Data Segmentation</Link>
+                  </li>
+
+                  <li>
+                    <Link to=''>Data Verifiction</Link>
+                  </li>
+
+                  <li>
+                    <Link to=''>Reverse Appending</Link>
+                  </li>
+
+                  
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
-                <ul className='sub-menu'>
+                <a href='#'>Digital Marketing</a>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
                   </li>
@@ -185,25 +211,25 @@ const NavBar = () => {
                   <li>
                     <Link to='/case-study-details'>Case Study Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <ul className='sub-menu'>
+                <a href='#'>GDPR</a>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
                     <Link to='/blog-details'>Blog Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link to='/contact'>Contact Us</Link>
+                <Link to='/'>Contact Us</Link>
               </li>
             </ul>
           </div>
-          <div className='nav-right-part nav-right-part-desktop align-self-center'>
+          {/* <div className='nav-right-part nav-right-part-desktop align-self-center'>
             <a className='navbar-phone' href='tel:'>
               <span className='icon'>
                 <img src='assets/img/icon/1.png' alt='img' />
@@ -211,7 +237,7 @@ const NavBar = () => {
               <span>Need help?</span>
               <h5>(808) 555-0111</h5>
             </a>
-          </div>
+          </div> */}
         </div>
       </nav>
       {/* navbar end */}

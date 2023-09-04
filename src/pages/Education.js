@@ -18,9 +18,12 @@ const Education = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Education Email List"} />
+      <Breadcrumb title={"Education Email List"} 
+subcontent={"  Galileo Data provides the most accurate and latest Education Email list that consists of contact details of all the decision makers in the education industry. We provide a safe and undated mailing   list that will help in rolling out your direct marketing campaigns and generate quality leads."}
 
-      <div className='about-area pd-top-120'>
+      />
+
+      <div className='about-area pt-5'>
         <div className='container'>
           <div className='row align-items-center'>
             <div className='col-lg-5'>
@@ -65,13 +68,10 @@ const Education = () => {
 
                  
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                Galileo Data provides the most accurate and latest Education Email list that consists of contact 
-                details of all the decision makers in the education industry. We provide a safe and undated mailing 
-                list that will help in rolling out your direct marketing campaigns and generate quality leads.</p>
+       
               
 
-                <div className='row'>
+                <div className='row pt-2'>
                       <div className='col-md-6'>
                         <ul className='single-list-inner style-check style-check mb-3'>
                           <li>
@@ -421,7 +421,7 @@ const Education = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Automobile-Automotive-Email-List</span> 
+                  Reach our expert professionals   of <span>Education Email List</span> 
                    
                   </h2>
                   <p className='content'>

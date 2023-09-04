@@ -76,11 +76,11 @@ const NavbarFour = () => {
               <img src={logo} alt='img' />
             </Link>
           </div>
-          <div className='nav-right-part nav-right-part-mobile'>
+          {/* <div className='nav-right-part nav-right-part-mobile'>
             <span className='search-bar-btn' onClick={searchActive}>
               <FaSearch />
             </span>
-          </div>
+          </div> */}
           <div
             className={
               active
@@ -135,6 +135,10 @@ const NavbarFour = () => {
                   <li>
                     <Link to='/Real_Estate'>Real Estate</Link>
                   </li>
+
+                  <li>
+                    <Link to='/Telecommunication_Company'>Telecommunication Company</Link>
+                  </li>
                 </ul>
               </li>
 
@@ -159,19 +163,19 @@ const NavbarFour = () => {
                 </ul>
               </li> */}
               <li className='menu-item-has-children'>
-                <a href='#'>Service</a>
-                <ul className='sub-menu'>
+                <a href='#'>Data Solutions</a>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/service'>Service</Link>
                   </li>
                   <li>
                     <Link to='/service-details'>Service Single</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
-                <ul className='sub-menu'>
+                <a href='#'>Digital Marketing</a>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
                   </li>
@@ -184,18 +188,18 @@ const NavbarFour = () => {
                   <li>
                     <Link to='/case-study-details'>Case Study Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <ul className='sub-menu'>
+                <a href='#'>GDPR</a>
+                {/* <ul className='sub-menu'>
                   <li>
                     <Link to='/blog'>Blog</Link>
                   </li>
                   <li>
                     <Link to='/blog-details'>Blog Details</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <Link to='/contact'>Contact Us</Link>

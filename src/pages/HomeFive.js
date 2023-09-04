@@ -12,6 +12,7 @@ import TestimonialFive from "../components/TestimonialFive";
 import WorkProcessFour from "../components/WorkProcessFour";
 import FaqAreaOne from "../components/FaqAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import NavBar from "../components/NavBar";
 
 
 
@@ -19,7 +20,7 @@ const HomeFive = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavbarFour />
+      <NavBar />
 
       {/* Banner Five */}
       <BannerFive />

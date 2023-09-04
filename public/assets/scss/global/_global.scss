@@ -532,7 +532,8 @@ ul {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    height: calc((100% - 30px) / 2) !important;
+    height: 200px;
+    border-radius: 10px;
   
     /* Center slide text vertically */
     display: flex;

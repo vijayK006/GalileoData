@@ -18,9 +18,11 @@ const Retail = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Retail Email List"} />
+      <Breadcrumb title={"Retail Email List"}
+      subcontent={"Demanding personalized products and services with digitally connected customers at the click of a button,  retailers the world over are faced with numerous challenges as they strive to reach evolving market expectations  while staying profitable. This necessarily made a shift towards Omni-channel and integrated digital supply chain functions.   Retailers however often struggle to control store and distribution center operations and maintenance costs."}
+       />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-5'>
@@ -59,7 +61,7 @@ const Retail = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                {/* <h6 className='sub-title'>Automotive</h6> */}
+                <h6 className='sub-title'>Retail Email List</h6>
                 <h2 className='title'>
                 Our professional experts can modify your <span>manufacturing industry</span> list by
                
@@ -78,11 +80,6 @@ const Retail = () => {
                       invested in a rich set of solution offerings,  accelerators and assets to increase ROI and reduce
                      the time-to-value of your business and IT programs.</p>
 
-
-                     <p>Demanding personalized products and services with digitally connected customers at the click of a button, 
-                     retailers the world over are faced with numerous challenges as they strive to reach evolving market expectations 
-                     while staying profitable. This necessarily made a shift towards Omni-channel and integrated digital supply chain functions. 
-                     Retailers however often struggle to control store and distribution center operations and maintenance costs.</p>
               </div>
             </div>
           </div>
@@ -620,7 +617,7 @@ const Retail = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Biotech & Pharmaceutical Email List</span> 
+                  Reach our expert professionals   of <span>Retail Email List</span> 
                    
                   </h2>
                   <p className='content'>

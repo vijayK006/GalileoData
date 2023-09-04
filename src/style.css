@@ -9,14 +9,34 @@
     color: #50af9b;
 }
 
+@media only screen and (max-width : 600px) {
+.breadcrumb-area {
+    padding: 185px 0 50px;
+
+}
+    .footer-subscribe .footer-subscribe-inner.style-2 {
+        display: none !important;
+        }    
+}
 
 @media only screen and (min-width : 998px){
+    
+    .breadcrumb-area {
+        padding: 222px 0 108px;
+
+    }
+
 .col-build-5{
     width: 20%;
 }
 }
 
 @media only screen and (min-width : 1400px){
+    .breadcrumb-area {
+        padding: 222px 0 108px;
+
+    }
+
 .col-build-5{
     width: 20%;
 }
@@ -42,15 +62,15 @@
 .FaqArea_title{
     font-size: 38px;
 }
-.card-logo{
-    width: 150px;
-    height: 150px;
-}
+
 .com-logo{
-    width:100%;
-    height:150px ;
+    width:80%;
+    height:200px;
 }
 @media only screen and (min-width : 998px){
+    .footer-subscribe .footer-subscribe-inner.style-2 {
+    display: flex !important;
+    }
     .title_Update{
         font-size: 17px;
     }
@@ -67,6 +87,10 @@
     }
 }
 @media only screen and (min-width : 1400px){
+    .footer-subscribe .footer-subscribe-inner.style-2 {
+        display: flex !important;
+        }
+
     .title_Update{
         font-size: 20px;
     }

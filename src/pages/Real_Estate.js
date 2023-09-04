@@ -8,6 +8,7 @@ import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import NavbarFour from "../components/NavbarFour";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -18,12 +19,14 @@ const Real_Estate = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Real-Estate Email List"} />
+      <Breadcrumb title={"Real-Estate Email List"}
+      subcontent={"Purpose-built database services to target commercial real estate companies, brokers, agents, and more. Unlock TAM Intelligence on Top Realty Customers for Double the Conversions"}
+       />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
-          <div className='row d-flex justify-content-center align-items-center' >
-            <div className='col-lg-6'>
+          <div className='row d-flex justify-content-center ' >
+            <div className='col-lg-5'>
               <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -53,24 +56,22 @@ const Real_Estate = () => {
               </div>
             </div>
             <div
-              className='col-lg-6'
+              className='col-lg-7'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                {/* <h6 className='sub-title'>Automotive</h6> */}
+                <h6 className='sub-title'>Real-Estate Email List</h6>
                 <h2 className='title'>
                   How <span>Galileo Data Inc</span> helps you?
 
                 </h2>
 
-                <p className='content mb-xl-3'>Purpose-built database services to target commercial real estate companies, brokers, agents, and more.
-                  Unlock TAM Intelligence on Top Realty Customers for Double the Conversions</p>
 
-                <h5>Grow your realty client & agent network tenfold using verified Galileo Data Inc. intelligence</h5>
+                <h5 className="pt-4">Grow your realty client & agent network tenfold using verified Galileo Data Inc. intelligence</h5>
 
-                <h6>Craft Highly Effective Marketing Plans Using Our Intent Insights</h6>
+                <h6 className="pt-4">Craft Highly Effective Marketing Plans Using Our Intent Insights</h6>
 
                 <p className='content mb-xl-3'>The real estate industry’s value chain has many moving parts,
                   and each holds immense potential for creating outstanding touchpoints.</p>
@@ -657,7 +658,7 @@ const Real_Estate = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                    Reach our expert professionals   of <span>Biotech & Pharmaceutical Email List</span>
+                    Reach our expert professionals   of <span>Real - Estate Email List</span>
 
                   </h2>
                   <p className='content'>

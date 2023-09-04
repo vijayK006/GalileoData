@@ -70,7 +70,7 @@ const FaqAreaOne = () => {
                     aria-labelledby='headingOne'
                     data-bs-parent='#accordionExample'
                   >
-                    <div className='accordion-body'>
+                    <div className='accordion-body' style={{textAlign:"justify"}}>
                     Redundant and unstructured data hinders qualified lead generation and stumps digital engagement efforts increasing the sales cost exponentially. Marketing campaigns often suffer due to inaccurate, outdated, or limited data. Additionally, there could be challenges linked to not having enough look-alike accounts required to maximising net new prospects.
                      Backed by over two decades of sales enablement experience, Galileo’s Intelligent Database Management Service could just be the solution for you.
 Over the years, we have have built a machine-learning based automated platform for synthesizing huge
@@ -97,7 +97,7 @@ Over the years, we have have built a machine-learning based automated platform f
                     aria-labelledby='headingTwo'
                     data-bs-parent='#accordionExample'
                   >
-                    <div className='accordion-body'>
+                    <div className='accordion-body' style={{textAlign:"justify"}}>
                     Leverage our Intelligent Database Management Services (IDBMS) to reach out to key contacts of your target markets. Galileo’s tech powered B2B Database service leveraging automation and machine learning, ensures access to large volumes of contactable contacts and unique accounts in a remarkably shorter span of time. It also leverages Natural Language Processing (NLP) capability that helps in overcoming the challenges of market penetration in non-English speaking countries with geo-specific accurate and refreshed database. To ensure you get maximum output from the intelligent database, the constant automated cleansing of the contact data guarantees that your CRM data never reeks of any obsolescence.
 The result is verified, structured, clean and on-demand generated B2B database – a dream come true for any lead generation campaign. And the cherry on the cake? You have upfront visibility to the quality score of the corporate database – so no more hitting the blind spot!
 With benefits such as higher accuracy and speed, greater depth of profiling, reduction in manual errors, high volumes of clean, standardized and high-quality data, deeper market access and lower costs – the journey to achieve stellar market penetration could just start right away for your business!

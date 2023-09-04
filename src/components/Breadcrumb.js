@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Breadcrumb = ({   title }) => {
+const Breadcrumb = ({ title, subcontent }) => {
   return (
     <>
       {/* ================ Breadcrumb Start ================*/}
@@ -12,10 +12,11 @@ const Breadcrumb = ({   title }) => {
         <div className='container'>
           <div className='breadcrumb-inner'>
             <div className='row justify-content-center'>
-              <div className='col-lg-6'>
+              <div className='col-lg-7'>
                 <h2 className='page-title'>{title}</h2>
+                <p>       {subcontent}  </p>
               </div>
-              <div className='col-lg-6 text-lg-end'>
+              <div className='col-lg-5 text-lg-end'>
                 <ul className='page-list'>
                   <li>
                     <Link to='/'>Home</Link>

@@ -8,24 +8,26 @@ import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import NavbarFour from "../components/NavbarFour";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
-const Manufacturing = () => {
+const Utility_And_Energy = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Manufacturing Email List"}
-      subcontent={"Most marketers acquire a Manufacturing email list that comprises of outdated email addresses or email addresses of random contacts. Either way, such marketers do not get much help from this type of list. Ideally, a customized direct mailing address list of targeted manufacturers should be purchased to approach all the industry verticals. To aid the most gainful marketing venture, Galileo Data offers its highly responsive manufacturer mailing database."} />
+      <Breadcrumb title={"Utility & Energy Email List"}
+      subcontent={"Galileo Data provides of key professionals who manage and direct the overall operations with regard to the powerhouse, distribution and production of utilities like natural gas, steam and more. He ensures that all facilities are mechanically operational, structurally sound, electrically efficient, most importantly, safe! The Utilities managers work under Assistant Directors of Facilities Management, work as project managers, handle hazardous materials and more."}
+       />
 
-      <div className='about-area pd-top-120'>
-        <div className='container'>
-          <div className='row align-items-center'>
-            <div className='col-lg-5'>
-            <div
+      <div className='about-area pt-5'>
+        <div className='container pb-5'>
+          <div className='row d-flex justify-content-center align-items-center' >
+            <div className='col-lg-6'>
+              <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
                 data-aos-delay='100'
@@ -54,106 +56,63 @@ const Manufacturing = () => {
               </div>
             </div>
             <div
-              className='col-lg-7'
+              className='col-lg-6'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                {/* <h6 className='sub-title'>Education</h6> */}
-                <h2 className='title'>
-                Why you should opt for <span>Manufacturing Industry</span> Mailing Lists from Galileo Data?
-                
-                 
-                </h2>
-               
-              
-                   <ul className='single-list-inner style-check style-check mb-3 pt-4'>
-                   <li> <FaCheckCircle /> With Manufacturing Industry Mailing List, you will be able to select the best Manufacturing industry
-                    leads for your needs based on geography, practice type, practice size and more.</li>
-                   <br/>
-                   <li> <FaCheckCircle />By targeting the managers and executives, within the
-                    industries of interest, you'll be able to effectively and efficiently
-                     close sales and boost profits.</li>
-                     <br/>
-                   
-                   <li> <FaCheckCircle />Our Manufacturing Industry directory is detailed 
-                   and comprehensive, email and tele-verified, permission based, accurate and 
-                   up-to-date and developed with utmost precision and adherence to client business needs.</li>
+                <h6 className='sub-title'>Utility & Energy Email List</h6>
 
-                   </ul>
 
-              
+                <h4 className="pt-4">Choose the right step of the ladder and reach decision makers, 
+                professionals and executives of Utility Industry using our Utility Industry Email List.</h4>
+
+                <h5 className="pt-2">Why Buy Utility Industry Mailing List from Galileo Data?</h5>
+
+                <h6 className='content mb-xl-3'>Using our specialized list, target the top decision makers of Utility industry in the following categories:</h6>
+
+                 <p className="content mb-xl-3">Reduce your marketing efforts by half using our well-defined customer bases.
+                  Now leave the guesswork behind and trust our verified
+                  contacts to identify, engage, and convert prospective customers using the hawk-eyed TAM approach.</p>
+
+                  <ul className='single-list-inner style-check style-heading mb-3'>
+                      <li> <FaCheckCircle />Nuclear Utility Industry Email List</li>
+                      <li> <FaCheckCircle />Utilities and Energy Planner Marketing List</li>
+                      <li> <FaCheckCircle />Utilities Industry Executives Email List</li>
+                      <li> <FaCheckCircle />Maintenance Utility Managers Contact Lis</li>
+                      <li> <FaCheckCircle />Energy & Utility Adviser Email List</li>
+                      <li> <FaCheckCircle />Power – Electricity Generation Industry Email List</li>
+                      <li> <FaCheckCircle />Energy Utility Consultant Email List</li>
+                      <li> <FaCheckCircle />Maintenance Utility Manager Email List</li>
+                      <li> <FaCheckCircle />Energy Utility Industry Executives Email List</li>
+                      <li> <FaCheckCircle />Electricity Operations Supervisor Email List</li>
+                      <li> <FaCheckCircle />Solar Industry Email List</li>
+                    </ul>
               </div>
             </div>
           </div>
 
-          <div className="row pt-5 ">
-          <h4 className="pb-4">Our professional experts can modify your manufacturing industry list by</h4>
-            <div className="col-lg-5">
-            <ul className='single-list-inner style-check style-check mb-3'>
+<p>As a high yielding business that is the capital incentive, there is a continuous inflow of funds leading to growing
+ demand. The utility division is a category of stocks for utilities such as natural gas, electricity, water, power and 
+ other services. During the last few years the sector is engaged at a consumer, industrial and commercial levels. Utility 
+Industry Email List helps you establish flawless connections between businesses at your multichannel marketing campaigns.</p>
 
-            <li> <FaCheckCircle />Tire Manufacturers Email List</li>
-            
-            <li> <FaCheckCircle />Electronics Products Manufacturers Email List</li>
+<p>Choose from our Utility industry email list to meet key decision makers, professionals with purchasing power across 
+US, UK, Russia, India, China, Europe, Australia,
+ North America, South America, New Zealand, Canada and more.</p>
 
-            <li> <FaCheckCircle /> Transportation Equipment Manufacturers Email List</li>
+ <p>Our pre-packaged and customized list is designed to establish connections with prospects across the globe without 
+ any demographical barriers. Galileo Data’s high-quality Utility industry mailing list is comprehensive, authentic and 
+ verified from various sources. Connect with your prospects via email, phone, and direct mail. Pick up the right ladder and see 
+ more fabulous results that help you maximize sales and ROI.</p>
 
-            <li> <FaCheckCircle /> Rubber & Plastics Items Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Printing items Manufacturers Email List</li>
-            <li> <FaCheckCircle />Leather Manufacturers Email List</li>
-            <li> <FaCheckCircle />Steel Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Furniture Manufacturers Email List</li>
-            <li> <FaCheckCircle /> Electrical products Manufacturers Email List</li>
-            <li> <FaCheckCircle />Aerospace Equipment Manufacturers Email List</li>
-            <li> <FaCheckCircle />Construction Material Manufacturers Email List</li>
-
-</ul>
-            </div>
-
-            <div className="col-lg-7">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-            <li> <FaCheckCircle /> Semiconductor Manufacturers Mailing List</li>
-
-            <li> <FaCheckCircle />Aerospace Equipment Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Vehicles Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Paper Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Textile & Apparel Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Healthcare Products/ Equipment Manufacturers Email List</li>
-            <li> <FaCheckCircle />Chemical Products Manufacturers Email List</li>
-            <li> <FaCheckCircle /> Technology Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Agriculture items Manufacturers Email List</li>
-            <li> <FaCheckCircle />PrintinaGlass Manufacturers Email Lisg items Manufacturers Email List</li>
-            <li> <FaCheckCircle />Primary Metal Industries Manufacturers Email List</li>
-
-            </ul>
-            </div>
-
-            <div className="col-lg-4">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-
-
-
-
-            </ul>
-            </div>
-
-          </div>
         </div>
       </div>
 
 
-        {/* Counter Area One */}
-        <CounterAreaOne />
+      {/* Counter Area One */}
+      <CounterAreaOne />
 
       {/* ========================= contact Area One start =========================*/}
       <div className='contact-area  pd-bottom-120'>
@@ -187,8 +146,8 @@ const Manufacturing = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Manufacturing Email List</span> 
-                   
+                    Reach our expert professionals   of <span>Utility & Energy Email List</span>
+                    
                   </h2>
                   <p className='content'>
                     For your car we will do everything advice design in us
@@ -253,4 +212,4 @@ const Manufacturing = () => {
   );
 };
 
-export default Manufacturing;
+export default Utility_And_Energy;

@@ -11,19 +11,19 @@ import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
-const Manufacturing = () => {
+const Data_Appending = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Manufacturing Email List"}
-      subcontent={"Most marketers acquire a Manufacturing email list that comprises of outdated email addresses or email addresses of random contacts. Either way, such marketers do not get much help from this type of list. Ideally, a customized direct mailing address list of targeted manufacturers should be purchased to approach all the industry verticals. To aid the most gainful marketing venture, Galileo Data offers its highly responsive manufacturer mailing database."} />
+      <Breadcrumb title={"Data Appending"}
+      subcontent={"Galileo data B2B Data Appending service adds guaranteed deliverable email addresses to your existing corporate postal database."} />
 
       <div className='about-area pd-top-120'>
         <div className='container'>
-          <div className='row align-items-center'>
+          <div className='row'>
             <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
@@ -60,97 +60,79 @@ const Manufacturing = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                {/* <h6 className='sub-title'>Education</h6> */}
+                <h6 className='sub-title'>Data Appending</h6>
                 <h2 className='title'>
-                Why you should opt for <span>Manufacturing Industry</span> Mailing Lists from Galileo Data?
-                
-                 
+                <span>Data</span> Appending
+
                 </h2>
+
                
-              
-                   <ul className='single-list-inner style-check style-check mb-3 pt-4'>
-                   <li> <FaCheckCircle /> With Manufacturing Industry Mailing List, you will be able to select the best Manufacturing industry
-                    leads for your needs based on geography, practice type, practice size and more.</li>
-                   <br/>
-                   <li> <FaCheckCircle />By targeting the managers and executives, within the
-                    industries of interest, you'll be able to effectively and efficiently
-                     close sales and boost profits.</li>
-                     <br/>
-                   
-                   <li> <FaCheckCircle />Our Manufacturing Industry directory is detailed 
-                   and comprehensive, email and tele-verified, permission based, accurate and 
-                   up-to-date and developed with utmost precision and adherence to client business needs.</li>
 
-                   </ul>
+                    <p className='content mb-4 mb-xl-5'>
+                    In the modern era of fierce competition and business rivalry, having complete know how about the customers
+                     is essential for any organization to reduce the gap between marketing and sales effectiveness. Customer
+                      data base if maintained effectively not only helps an organization to be in touch
+                     with the customers but also helps in updating the customers on the latest offers, products and services.</p>
 
-              
+                     <p className="content ">Even a slight gap in the contact data is enough to bring a downward slide in the leads
+                      and sales in your current business. For this, restricting only with data verification is not adequate,
+                      organization needs to enhance or upgrade it by cleansing the current data base with erroneous and outdated data.</p>
               </div>
             </div>
           </div>
 
-          <div className="row pt-5 ">
-          <h4 className="pb-4">Our professional experts can modify your manufacturing industry list by</h4>
-            <div className="col-lg-5">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-            <li> <FaCheckCircle />Tire Manufacturers Email List</li>
-            
-            <li> <FaCheckCircle />Electronics Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Transportation Equipment Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Rubber & Plastics Items Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Printing items Manufacturers Email List</li>
-            <li> <FaCheckCircle />Leather Manufacturers Email List</li>
-            <li> <FaCheckCircle />Steel Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Furniture Manufacturers Email List</li>
-            <li> <FaCheckCircle /> Electrical products Manufacturers Email List</li>
-            <li> <FaCheckCircle />Aerospace Equipment Manufacturers Email List</li>
-            <li> <FaCheckCircle />Construction Material Manufacturers Email List</li>
-
-</ul>
-            </div>
-
-            <div className="col-lg-7">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-            <li> <FaCheckCircle /> Semiconductor Manufacturers Mailing List</li>
-
-            <li> <FaCheckCircle />Aerospace Equipment Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Vehicles Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Paper Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Textile & Apparel Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Healthcare Products/ Equipment Manufacturers Email List</li>
-            <li> <FaCheckCircle />Chemical Products Manufacturers Email List</li>
-            <li> <FaCheckCircle /> Technology Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Agriculture items Manufacturers Email List</li>
-            <li> <FaCheckCircle />PrintinaGlass Manufacturers Email Lisg items Manufacturers Email List</li>
-            <li> <FaCheckCircle />Primary Metal Industries Manufacturers Email List</li>
-
-            </ul>
-            </div>
-
-            <div className="col-lg-4">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-
-
-
-
-            </ul>
-            </div>
-
-          </div>
+        
         </div>
       </div>
 
+      {/* Work Process One */}
+          {/*==================== Work Process One start ====================*/}
+          <div className='work-process-area pd-top-100'>
+        <div className='container'>
+       
+        <div className="row pb-5">
+            <div className="col-lg-6">
+
+            <div className='section-title'>
+            <h2 className='title'>
+         
+            How we improve your data?
+          
+            </h2>
+            {/* <h6 className='sub-title mt-3'>8 Steps to aggregating your targeted email lists</h6> */}
+
+        
+          </div>
+            </div>
+
+            <div className="row pt-2">
+
+                 <div className="col-lg-6">
+                <b>Enhance</b>  – Use additional demographic and lifestyle information to gain a better insight into consumer behavior 
+                 and ensure your communication is relevant. Match – Accurately identify and discard duplicate records within a
+                  single file, or between two to avoid mailing an individual multiple times with the same offer. 
+                 Mailing an existing customer, or an individual who has specifically requested not to be contacted by your organization.
+            </div>
+
+            <div className="col-lg-6">
+            <p><b>Validate</b> – Validate whether if individual is present at particular address and telephone contact
+             details are correct to ensure that your direct marketing reaches the expected recipient. Suppress
+              – Identify and remove individuals that cannot or will not respond as a result of them moving house, passing away, or
+             registering with one of the preference services. This curtails wasted mailing costs and helps to avoid consumer annoyance.</p>
+            </div>
+
+            <div className="col-12">
+            <p><b>Clean</b>  – Verify and updating of: Name, address and date of birth details using files such as the Post Code Address File to assure
+ that personal information is accurate, and that marketing communications are deliverable.</p>
+            </div>
+            </div>
+           
+        </div>
+
+     
+        </div>
+      </div>
+      {/* ==================== Work Process One end ====================*/}
 
         {/* Counter Area One */}
         <CounterAreaOne />
@@ -187,7 +169,7 @@ const Manufacturing = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Manufacturing Email List</span> 
+                  Reach our expert professionals   of <span>Data Appending</span> 
                    
                   </h2>
                   <p className='content'>
@@ -253,4 +235,4 @@ const Manufacturing = () => {
   );
 };
 
-export default Manufacturing;
+export default Data_Appending;

@@ -18,11 +18,12 @@ const Information_Technology = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Information Technology Email List"} />
+      <Breadcrumb title={"Information Technology Email List"}
+      subcontent={"Galileo Data specializes in providing highly-responsive mailing lists, email lists and telemarketing lists from the most targeted and valued sources."} />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
-          <div className='row align-items-center'>
+          <div className='row'>
             <div className='col-lg-4'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
@@ -59,18 +60,14 @@ const Information_Technology = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                <h6 className='sub-title'>Education</h6>
+                <h6 className='sub-title'>Information Techonology</h6>
                 <h2 className='title'>
                 Customize Your <span>Information Technology</span> Email List By
 
                  
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                Galileo Data specializes in providing highly-responsive mailing lists, email lists and telemarketing lists 
-                from the most targeted and valued sources. Our lists are the highest-quality and most-responsive B2B and 
-                Information Technology mailing lists on   the market, providing you with the most accurate 
-                and cost-effective way to reach your prospects!</p>
-              
+       
+              <p className="pt-5"> Our lists are the highest-quality and most-responsive B2B and Information Technology mailing lists on the market, providing you with the most accurate and cost-effective way to reach your prospects!</p>
 
               
               </div>
@@ -315,8 +312,8 @@ engage prospects directly, close deals faster and enjoy blazing-fast conversions
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Automobile-Automotive-Email-List</span> 
-                   
+                  Reach our expert professionals   of <span>Information Technologies</span> 
+                 
                   </h2>
                   <p className='content'>
                     For your car we will do everything advice design in us

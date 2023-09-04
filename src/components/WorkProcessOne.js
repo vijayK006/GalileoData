@@ -19,6 +19,7 @@ const WorkProcessOne = () => {
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
                   <img src='assets/img/icon/10.svg' alt='img' />
+                  
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Social Media Marketing</h5>

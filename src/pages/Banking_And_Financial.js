@@ -20,12 +20,14 @@ const Banking_And_Financial = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Automobile/Automotive Email List"} />
+      <Breadcrumb title={"Banking And Financial Email List"} 
+        subcontent={"Our file comprises commercial banks, insurance companies, non-banking financial companies, co-operatives, pension funds, mutual funds and other smaller financial entities. Creating a marketing list for consumers likely to buy banking and financial services using Galileo Data Contacts large and accurate customizable consumer database. Acquire Financial Services Email List and Mailing Addresses from Galileo Data Contacts to reach everyone who are working in Financial sector and take your business to next level. We have built our opt-in Email List of financial services based on the extensive research and data compilation from a vast range of validated sources. The data we provide are permission based and are perfect for marketing your products or services."}
+      />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -55,7 +57,7 @@ const Banking_And_Financial = () => {
               </div>
             </div>
             <div
-              className='col-lg-8'
+              className='col-lg-7'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -66,24 +68,9 @@ const Banking_And_Financial = () => {
                 Some of the importance of having a good database for the <span>banking and finance</span> sector are
 
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-             Our file comprises commercial banks, insurance companies, non-banking financial companies, co-operatives, 
-             pension funds, mutual funds and other smaller financial entities. Creating a marketing list for consumers 
-             likely to buy banking and financial services using Galileo Data Contacts large and accurate customizable 
-             consumer database. Acquire Financial Services Email List and Mailing Addresses from Galileo Data Contacts 
-             to reach everyone who are working in Financial sector and take your business to next level. We have built
-              our opt-in Email List of financial services based on the extensive research and data compilation from a 
-              vast range of validated sources. 
-             The data we provide are permission based and are perfect for marketing your products or services.</p>
+                
               
-
-             
-              </div>
-            </div>
-          </div>
-
-          <div className='row pd-bottom-100'>
-                      <div className='col-md-6 mt-5'>
+                <div className='col-md-12 mt-5'>
                         <ul className='single-list-inner style-check style-check mb-3'>
                           <li>
                             <FaCheckCircle /> Wins the genuine trust of the customer if they get error-free data. 
@@ -91,23 +78,40 @@ const Banking_And_Financial = () => {
                             to gain more potential customers and motivate them to become your permanent leads.
                           </li>
                           <br/>                          <br/>
+
                           <li>
+                            <FaCheckCircle /> You can calculate the behavior of the person through this process. Through the behavioral activity of 
+                            the customer you can analyses your sales leads and accelerate your marketing activities.
+                          </li>
+                         
+                        
+                        </ul>
+                      </div>
+             
+              </div>
+            </div>
+          </div>
+
+          <div className='row pd-bottom-100'>
+                      
+                      <div className='col-md-6  mt-5'>
+                        <ul className='single-list-inner style-check style-check mb-3'>
+                          
+                       
+                        <li>
                             <FaCheckCircle /> It will be a cost-effective data management for your database. It 
                             will include cleansing your data, segmenting your data and helps in the database validation. 
                             This helps in keeping your data error-free. It should also be completed within a period of time.
                              This helps the database to work faster as the unwanted information will be deleted while 
                             cleansing and gives you only the efficient and valid data to your customer.
                           </li>
-                        
-                        </ul>
+                  
+      </ul>
                       </div>
+
                       <div className='col-md-6  mt-5'>
                         <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
-                            <FaCheckCircle /> You can calculate the behavior of the person through this process. Through the behavioral activity of 
-                            the customer you can analyses your sales leads and accelerate your marketing activities.
-                          </li>
-                          <br/>                          <br/>
+                       
                           <li>
                             <FaCheckCircle /> It will improve the efficiency of the marketing campaigns 
                             for your banking and financial sector. It indirectly helps you to get more 
@@ -157,7 +161,7 @@ const Banking_And_Financial = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Automobile-Automotive-Email-List</span> 
+                  Reach our expert professionals   of <span>Banking And Financial Email List</span> 
                    
                   </h2>
                   <p className='content'>

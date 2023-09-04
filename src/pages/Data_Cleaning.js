@@ -11,19 +11,19 @@ import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
-const Manufacturing = () => {
+const Data_Cleaning = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Manufacturing Email List"}
-      subcontent={"Most marketers acquire a Manufacturing email list that comprises of outdated email addresses or email addresses of random contacts. Either way, such marketers do not get much help from this type of list. Ideally, a customized direct mailing address list of targeted manufacturers should be purchased to approach all the industry verticals. To aid the most gainful marketing venture, Galileo Data offers its highly responsive manufacturer mailing database."} />
+      <Breadcrumb title={"Data Cleansing and Enrichment Services"}
+      subcontent={"Galileo data B2B Data Segmentation service adds guaranteed deliverable email addresses to your existing corporate postal database."} />
 
       <div className='about-area pd-top-120'>
         <div className='container'>
-          <div className='row align-items-center'>
+          <div className='row'>
             <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
@@ -60,97 +60,73 @@ const Manufacturing = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                {/* <h6 className='sub-title'>Education</h6> */}
+                <h6 className='sub-title'>Data Cleaning</h6>
                 <h2 className='title'>
-                Why you should opt for <span>Manufacturing Industry</span> Mailing Lists from Galileo Data?
-                
-                 
+                <span>Data Cleansing</span>   and Enrichment Services
+
                 </h2>
+
                
-              
-                   <ul className='single-list-inner style-check style-check mb-3 pt-4'>
-                   <li> <FaCheckCircle /> With Manufacturing Industry Mailing List, you will be able to select the best Manufacturing industry
-                    leads for your needs based on geography, practice type, practice size and more.</li>
-                   <br/>
-                   <li> <FaCheckCircle />By targeting the managers and executives, within the
-                    industries of interest, you'll be able to effectively and efficiently
-                     close sales and boost profits.</li>
-                     <br/>
-                   
-                   <li> <FaCheckCircle />Our Manufacturing Industry directory is detailed 
-                   and comprehensive, email and tele-verified, permission based, accurate and 
-                   up-to-date and developed with utmost precision and adherence to client business needs.</li>
 
-                   </ul>
-
-              
+                    <p className='content mb-4 mb-xl-5'>
+                    We facilitate our clients in taking strong and optimistic business decisions by cleansing and updating their
+                     valuable databases regularly. At Galileo data, we employ latest techniques to clean, de-duplicate, standardize,
+                      normalize, verify and validate critical data or information of your company. Also, our data cleansing and enrichment
+                       services team ensures that your products, marketing and clients databases are current, accurate and complete so that
+                        you can carry out successful marketing campaigns and business processes. The process of data cleansing is multi-faceted
+                         and a number of problems must be addressed to solve any particular data-cleansing problem. Our data enrichment
+                          professionals provide comprehensive data cleansing services to
+                     our clients for maintaining their data records accurately also, we reduce unnecessary costs wastage associated.</p>
               </div>
             </div>
           </div>
 
-          <div className="row pt-5 ">
-          <h4 className="pb-4">Our professional experts can modify your manufacturing industry list by</h4>
-            <div className="col-lg-5">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-            <li> <FaCheckCircle />Tire Manufacturers Email List</li>
-            
-            <li> <FaCheckCircle />Electronics Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Transportation Equipment Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Rubber & Plastics Items Manufacturers Email List</li>
-
-            <li> <FaCheckCircle /> Printing items Manufacturers Email List</li>
-            <li> <FaCheckCircle />Leather Manufacturers Email List</li>
-            <li> <FaCheckCircle />Steel Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Furniture Manufacturers Email List</li>
-            <li> <FaCheckCircle /> Electrical products Manufacturers Email List</li>
-            <li> <FaCheckCircle />Aerospace Equipment Manufacturers Email List</li>
-            <li> <FaCheckCircle />Construction Material Manufacturers Email List</li>
-
-</ul>
-            </div>
-
-            <div className="col-lg-7">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-            <li> <FaCheckCircle /> Semiconductor Manufacturers Mailing List</li>
-
-            <li> <FaCheckCircle />Aerospace Equipment Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Vehicles Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Paper Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Textile & Apparel Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Healthcare Products/ Equipment Manufacturers Email List</li>
-            <li> <FaCheckCircle />Chemical Products Manufacturers Email List</li>
-            <li> <FaCheckCircle /> Technology Products Manufacturers Email List</li>
-
-            <li> <FaCheckCircle />Agriculture items Manufacturers Email List</li>
-            <li> <FaCheckCircle />PrintinaGlass Manufacturers Email Lisg items Manufacturers Email List</li>
-            <li> <FaCheckCircle />Primary Metal Industries Manufacturers Email List</li>
-
-            </ul>
-            </div>
-
-            <div className="col-lg-4">
-            <ul className='single-list-inner style-check style-check mb-3'>
-
-
-
-
-
-            </ul>
-            </div>
-
-          </div>
+        
         </div>
       </div>
 
+      {/* Work Process One */}
+          {/*==================== Work Process One start ====================*/}
+          <div className='work-process-area pd-top-100'>
+        <div className='container'>
+       
+        <div className="row pb-5">
+            <div className="col-lg-6">
+
+            <div className='section-title'>
+            <h2 className='title'>
+         
+         Why choose us for <span>Data Cleansing</span> services?
+
+            </h2>
+            {/* <h6 className='sub-title mt-3'>8 Steps to aggregating your targeted email lists</h6> */}
+
+        
+          </div>
+            </div>
+
+            <div className="row pt-2">
+
+                 <div className="col-lg-6">
+<p>Galileo Data offers all type of data cleansing, data analysis, data scrubbing, data enrichment and
+ data verification services. Outsourcing data cleansing services to us in India ensures an accurate and
+  up-to-date database, which yields the business results as per your desire. Our data cleansing service 
+  covers several functions, depending on the type of data and client specific need.</p>
+            </div>
+
+            <div className="col-lg-6">
+            <p>Our clients are able to take the headache out of data cleansing problems by outsourcing data enrichment services to us.
+             A data cleansing / enrichment service bureau like DOI with its expertise 
+            over the last several years can automate the process for greater quality, capacity, turnaround and value.</p>
+            </div>
+            </div>
+           
+        </div>
+
+     
+        </div>
+      </div>
+      {/* ==================== Work Process One end ====================*/}
 
         {/* Counter Area One */}
         <CounterAreaOne />
@@ -187,7 +163,7 @@ const Manufacturing = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Manufacturing Email List</span> 
+                  Reach our expert professionals   of <span>Data Cleansing</span> 
                    
                   </h2>
                   <p className='content'>
@@ -253,4 +229,4 @@ const Manufacturing = () => {
   );
 };
 
-export default Manufacturing;
+export default Data_Cleaning;

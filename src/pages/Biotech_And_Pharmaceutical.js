@@ -20,12 +20,13 @@ const Biotech_And_Pharmaceutical = () => {
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Biotech & Pharmaceutical Email List"} />
+      <Breadcrumb title={"Biotech & Pharmaceutical Email List"}
+      subcontent={"The Pharmaceutical and Biotechnology Email Subscriber file is comprised of individuals looking to stay on top of how leading pharmaceutical and biotechnology researchers are applying the latest discovery tools and development techniques and furthering the process of discovering."} />
 
       <div className='about-area pd-top-120'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -55,7 +56,7 @@ const Biotech_And_Pharmaceutical = () => {
               </div>
             </div>
             <div
-              className='col-lg-8'
+              className='col-lg-7'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -66,14 +67,21 @@ const Biotech_And_Pharmaceutical = () => {
                 Our <span>Biotech & Pharmaceutical</span>  Email List offers
                 
                 </h2>
-                <p className='content mb-4 mb-xl-5'>
-                The Pharmaceutical and Biotechnology Email Subscriber file is comprised of individuals looking to stay on top of how leading 
-                pharmaceutical and biotechnology researchers are   applying the latest discovery tools 
-                and development techniques and furthering the process of discovering.</p>
-                <ul className='single-list-inner style-check style-check mb-3'>
+              
+                <ul className='single-list-inner style-check style-check mb-3 pt-5'>
 
-                          <li>
+                          <li className="pt-3">
                             <FaCheckCircle /> Galileo Data offers the most comprehensive and complete lists of Pharmaceutical & Biotechnology Executive Contact Databases available on the market.
+                          </li>
+
+                          <li className="pt-3">
+                            <FaCheckCircle /> Contrary to list brokers and other list compilers, Galileo Data offers its clients the opportunity to acquire databases by delivering the actual 
+                            databases, allowing companies and individuals to use the data for email marketing, direct mailings, and telephone lead generation.
+                          </li>
+
+                          <li className="pt-3"> <FaCheckCircle /> Developed in cooperation with leading Pharmaceutical Industry Marketing Executives, Galileo Data 
+                            is the only list company offering full contact information on key executive contacts of the pharmaceutical industry, and allowing business 
+                            to business marketers to use a multi-channel database by tapping in on email marketing, direct mail and telephone.
                           </li>
                 </ul>
               </div>
@@ -81,38 +89,19 @@ const Biotech_And_Pharmaceutical = () => {
           </div>
 
           <div className='row pd-bottom-100'>
-                      <div className='col-md-4 mt-5'>
+                      <div className='col-md-12 mt-5'>
                         <ul className='single-list-inner style-check style-check mb-3'>
-                        <li> <FaCheckCircle /> Developed in cooperation with leading Pharmaceutical Industry Marketing Executives, Galileo Data 
-                            is the only list company offering full contact information on key executive contacts of the pharmaceutical industry, and allowing business 
-                            to business marketers to use a multi-channel database by tapping in on email marketing, direct mail and telephone.
-                          </li>
                         
-                        </ul>
-                      </div>
-
-                      <div className='col-md-4  mt-5'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
-                            <FaCheckCircle /> Contrary to list brokers and other list compilers, Galileo Data offers its clients the opportunity to acquire databases by delivering the actual 
-                            databases, allowing companies and individuals to use the data for email marketing, direct mailings, and telephone lead generation.
-                          </li>
-                          <br/>
-                  
-      </ul>
-                      </div>
-
-                      <div className='col-md-4  mt-5'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
+                         <li>
                             <FaCheckCircle /> This list targets professionals and scientists at top pharmaceutical companies, biopharmaceutical 
                             companies, biotechnology companies, contract research organizations, government laboratories, university and hospital laboratories and medical 
                             centers, and instrument and system manufacturers, in order to maximize the results of your next marketing​
                           </li>
-                          <br/>
-                  
-      </ul>
+                        </ul>
                       </div>
+
+
+                    
                     </div>
         </div>
       </div>
