@@ -12,6 +12,7 @@ import Automotion from "../img/Automotive Industry-01.png"
 import Automotion2 from "../img/Automotive Industry_2-01.png"
 
  import { FaCheckCircle } from 'react-icons/fa';
+ import { BsChatRightText } from 'react-icons/bs';
 
 const Automotive = () => {
   return (
@@ -170,7 +171,8 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                 <BsChatRightText className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}

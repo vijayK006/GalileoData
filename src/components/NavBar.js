@@ -97,7 +97,7 @@ const NavBar = () => {
                 <a href='#'>Our Data</a>
                 <ul className='sub-menu'>
                 <li>
-                    <Link to='/Automotive'>Automation</Link>
+                    <Link to='/Automotive'>Automotive</Link>
                   </li>
                   <li>
                     <Link to='/Banking_And_Financial'>Banking And Financial</Link>
