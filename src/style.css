@@ -114,6 +114,11 @@ height: 115px;
     width:80%;
     height:200px;
 }
+
+.breadcrumb-area .page-title {
+    font-size: 34px;
+}
+
 @media only screen and (min-width : 998px){
     .footer-subscribe .footer-subscribe-inner.style-2 {
     display: flex !important;
@@ -144,6 +149,10 @@ height: 115px;
     .single-list-inner.style-heading li {
         font-size: 15px;
     }
+    .breadcrumb-area .page-title {
+        font-size: 38px;
+    }
+    
 }
 
 
@@ -188,13 +197,39 @@ border-radius: 10px;
 
 .single-work-process-inner-5  .inner-card-icon{
     font-size: 40px;
-    color: black;
+    color: #246bfd;
     transition: all 0.2s ease-in-out;
-    /* font-weight: 100; */
+    /* transform: rotateY(0deg); */
 }
 
 .single-work-process-inner-5:hover .inner-card-icon{
-    color: #246bfd;
     cursor: pointer;
+    color: black;
+    transform: rotateY(180deg);
+}
 
+.single-work-process-inner-4  .inner-card-icon{
+    font-size: 40px;
+    color: #246bfd;
+    transition: all 0.2s ease-in-out;
+    /* transform: rotateY(0deg); */
+}
+
+.single-work-process-inner-4:hover .inner-card-icon{
+    cursor: pointer;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.single-work-process-inner-7  .inner-card-icon{
+    font-size: 40px;
+    color: #246bfd;
+    transition: all 0.2s ease-in-out;
+    /* transform: rotateY(0deg); */
+}
+
+.single-work-process-inner-7:hover .inner-card-icon{
+    cursor: pointer;
+    color: black;
+    transform: rotateY(180deg);
 }

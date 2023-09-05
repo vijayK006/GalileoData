@@ -91,7 +91,7 @@ function App() {
         <Route exact path='/RDPSC' element={<RDPSC />} />
         
       </Routes>
-      <ScrollToTop smooth color='#246BFD' />
+      <ScrollToTop  smooth color='#246BFD' />
     </BrowserRouter>
   );
 }

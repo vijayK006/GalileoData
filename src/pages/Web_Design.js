@@ -73,7 +73,7 @@ const Web_Design = () => {
                     Galileo Data offer only state of the art, cutting edge technology and are for all time creating new and original ways 
                     to make our customers’ experience better. If you are searching for a trusted reputable Web Design corporation to grip 
                     all of your online business wants then look no further. We recommend complete solutions for all industries 
-                    and can meet the demands of any business, and have been ranked one of the most excellent Web Design Companies to do business.s</p>
+                    and can meet the demands of any business, and have been ranked one of the most excellent Web Design Companies to do business.</p>
 
                       <p className="content mb-4">
                       We are a premium web design and development company that offers a broad range of solutions for both small to large companies globally. We dedicated in rich interactive experiences in Web, designing the long time.
