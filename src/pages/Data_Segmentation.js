@@ -1,3 +1,4 @@
+
 import React from "react";
 import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
@@ -11,20 +12,20 @@ import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
-const Data_Cleaning = () => {
+const Data_Segmentation = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Data Cleansing and Enrichment Services"}
-      subcontent={"Galileo data B2B Data Segmentation service adds guaranteed deliverable email addresses to your existing corporate postal database."} />
+      <Breadcrumb title={"Data Segmentation"}
+      subcontent={"Galileo data B2B Data Segmentation service adds guaranteed deliverable email addresses to your existing corporate postal database"} />
 
       <div className='about-area pd-top-120'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-5'>
+            <div className='col-lg-4'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -54,29 +55,28 @@ const Data_Cleaning = () => {
               </div>
             </div>
             <div
-              className='col-lg-7'
+              className='col-lg-8'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                <h6 className='sub-title'>Data Cleaning</h6>
+                {/* <h6 className='sub-title'>Data Cleaning</h6> */}
                 <h2 className='title'>
-                <span>Data Cleansing</span>   and Enrichment Services
+              Data <span>Segmentation</span>  
 
                 </h2>
 
                
 
                     <p className='content mb-4 mb-xl-5'>
-                    We facilitate our clients in taking strong and optimistic business decisions by cleansing and updating their
-                     valuable databases regularly. At Galileo data, we employ latest techniques to clean, de-duplicate, standardize,
-                      normalize, verify and validate critical data or information of your company. Also, our data cleansing and enrichment
-                       services team ensures that your products, marketing and clients databases are current, accurate and complete so that
-                        you can carry out successful marketing campaigns and business processes. The process of data cleansing is multi-faceted
-                         and a number of problems must be addressed to solve any particular data-cleansing problem. Our data enrichment
-                          professionals provide comprehensive data cleansing services to
-                     our clients for maintaining their data records accurately also, we reduce unnecessary costs wastage associated.</p>
+                    Plan more efficient and rewarding marketing strategies. At Galileo Data, we offer you smart data
+                     segmentation services which is the process of distributing large set of customers into groups or categories based on their
+                     similarities in specific aspects aligned to marketing such as gender, age groups, income levels, demographics etc..</p>
+
+                     <p className="content">Segmenting large customer database helps companies connect with their customers in
+                      the best possible way. Companies, which employ data segmentation techniques
+                      can allocate their resources more optimally and plan more systematic and rewarding marketing strategies.</p>
               </div>
             </div>
           </div>
@@ -96,8 +96,8 @@ const Data_Cleaning = () => {
             <div className='section-title'>
             <h2 className='title'>
          
-         Why choose us for <span>Data Cleansing</span> services?
-
+           How does <span>Galileo data</span> help you?
+         
             </h2>
             {/* <h6 className='sub-title mt-3'>8 Steps to aggregating your targeted email lists</h6> */}
 
@@ -108,16 +108,25 @@ const Data_Cleaning = () => {
             <div className="row pt-2">
 
                  <div className="col-lg-6">
-<p>Galileo Data offers all type of data cleansing, data analysis, data scrubbing, data enrichment and
- data verification services. Outsourcing data cleansing services to us in India ensures an accurate and
-  up-to-date database, which yields the business results as per your desire. Our data cleansing service 
-  covers several functions, depending on the type of data and client specific need.</p>
+
+
+ <p style={{textAlign:"justify"}}>Enhance – Use additional demographic and lifestyle information to gain a better insight into consumer
+                 behavior and ensure your communication is relevant. Match – Accurately identify and discard duplicate
+                  records within a single file, or between two to avoid mailing an individual multiple times with the same offer.
+                 Mailing an existing customer, or an individual who has specifically requested not to be contacted by your organization.</p>
             </div>
 
             <div className="col-lg-6">
-            <p>Our clients are able to take the headache out of data cleansing problems by outsourcing data enrichment services to us.
-             A data cleansing / enrichment service bureau like DOI with its expertise 
-            over the last several years can automate the process for greater quality, capacity, turnaround and value.</p>
+            <p style={{textAlign:"justify"}}>Validate – Validate whether if individual is present at particular address and telephone contact 
+            details are correct to ensure that your direct marketing reaches the expected recipient. Suppress –
+             Identify and remove individuals that cannot or will not respond as a result of them moving house, passing away, or registering with one of
+             the preference services. This curtails wasted mailing costs and helps to avoid consumer annoyance.</p>
+            </div>
+
+            <div className="col-lg-12 pt-3">
+            <p>Enhances chances of success for marketing campaigns targeted at a particular group – 
+Personalized touch is added to the way customers are approached.
+ – More customized campaigns are planned. – Deepens relationship with customers and results in higher conversion ratio</p>
             </div>
             </div>
            
@@ -163,7 +172,7 @@ const Data_Cleaning = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Data Cleansing</span> 
+                  Reach our expert professionals   of <span>Data Segmentation</span> 
                    
                   </h2>
                   <p className='content'>
@@ -229,4 +238,4 @@ const Data_Cleaning = () => {
   );
 };
 
-export default Data_Cleaning;
+export default Data_Segmentation;

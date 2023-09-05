@@ -1,3 +1,4 @@
+
 import React from "react";
 import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
@@ -11,20 +12,20 @@ import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
-const Data_Cleaning = () => {
+const Reverse_Appending = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Data Cleansing and Enrichment Services"}
-      subcontent={"Galileo data B2B Data Segmentation service adds guaranteed deliverable email addresses to your existing corporate postal database."} />
+      <Breadcrumb title={"Reverse Appending"}
+      subcontent={"Galileo data B2B Data Appending service adds guaranteed deliverable email addresses to your existing corporate postal database."} />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5 pd-bottom-120'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-5'>
+            <div className='col-lg-4'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -60,23 +61,24 @@ const Data_Cleaning = () => {
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                <h6 className='sub-title'>Data Cleaning</h6>
+                {/* <h6 className='sub-title'>Reverse Appending</h6> */}
                 <h2 className='title'>
-                <span>Data Cleansing</span>   and Enrichment Services
-
+                Reverse <span>Appending</span> 
+               
                 </h2>
 
                
 
                     <p className='content mb-4 mb-xl-5'>
-                    We facilitate our clients in taking strong and optimistic business decisions by cleansing and updating their
-                     valuable databases regularly. At Galileo data, we employ latest techniques to clean, de-duplicate, standardize,
-                      normalize, verify and validate critical data or information of your company. Also, our data cleansing and enrichment
-                       services team ensures that your products, marketing and clients databases are current, accurate and complete so that
-                        you can carry out successful marketing campaigns and business processes. The process of data cleansing is multi-faceted
-                         and a number of problems must be addressed to solve any particular data-cleansing problem. Our data enrichment
-                          professionals provide comprehensive data cleansing services to
-                     our clients for maintaining their data records accurately also, we reduce unnecessary costs wastage associated.</p>
+                    Use email to locate name and address Business to Business Your existing email addresses database
+                     will be used to provide additional information about the individuals who own these email addresses
+                      – allowing you to further segment, target and contact them by additional means. Reverse Append takes
+                       advantage of the fact that for many online marketers, the email address is the only identifier within 
+                       their online database. To find postal addresses, Reverse Append matches your email-only file with the
+                        Smart Business contacts database of over 900 million records that include email addresses as well as
+                         name and postal address. Where an email address matches,
+                     Reverse Append will return a file containing the name and deliverable postal address of the individual at the given email address.</p>
+
               </div>
             </div>
           </div>
@@ -85,48 +87,76 @@ const Data_Cleaning = () => {
         </div>
       </div>
 
-      {/* Work Process One */}
-          {/*==================== Work Process One start ====================*/}
-          <div className='work-process-area pd-top-100'>
+      <div className='about-area pt-5 pd-bottom-120'>
         <div className='container'>
-       
-        <div className="row pb-5">
-            <div className="col-lg-12">
+          <div className='row'>
+           
+            <div
+              className='col-lg-6'
+              data-aos='fade-left'
+              data-aos-delay='100'
+              data-aos-duration='1500'
+            >
+              <div className='section-title mt-5 mt-lg-0'>
+                {/* <h6 className='sub-title'>Reverse Appending</h6> */}
+                     <h6 className="mb-4">CASS Certified Addresses</h6>
 
-            <div className='section-title'>
-            <h2 className='title'>
-         
-         Why choose us for <span>Data Cleansing</span> services?
+                      <p className="content mb-4">
+                      CASS Certified Addresses Reverse Append uses a CASS certified database and a proprietary addresses
+                       standardization technology. This platform ensures that you receive only the highest quality addresses
+                        from the reverse append process. Based on an industry leading matching technology, our standardization
+                         solution evaluates each unique element of an address for complete address accuracy according to the USPS.
+                          Items such as suffixes, apartment numbers, suite numbers, PO boxes, and rural/highway contract route addresses,
+                           as well as city names do not confuse our platform. Updated monthly, our
+                       solution includes ZIP+4 information so the address you receive is guaranteed to be a deliverable address – every time.
+                      </p>
 
-            </h2>
-            {/* <h6 className='sub-title mt-3'>8 Steps to aggregating your targeted email lists</h6> */}
+                     <h6 className="mb-4 pt-3">Lower Postal Costs</h6>
+
+                     <p className="content"> Standardization lowers your postal costs by making sure your addresses conform 
+                     to USPS requirements for address format and content. Reverse Append adds missing address information; 
+                     standardizes city names and state abbreviations, corrects misspelled address elements and converts addresses into a USPS
+                      readable format. The result is that provide to you a high quality, deliverable database ready to mail.</p>
+
+              </div>
+            </div>
+
+            <div className='col-lg-6'>
+            <div
+                className='about-thumb-inner pe-xl-5 me-xl-5 '
+                data-aos='fade-right'
+                data-aos-delay='100'
+                data-aos-duration='1500'
+              >
+                <img
+                  className='animate-img-1 top_image_bounce'
+                  src='assets/img/about/2.png'
+                  alt='img'
+                />
+                <img
+                  className='animate-img-2 left_image_bounce'
+                  src='assets/img/about/3.png'
+                  alt='img'
+                />
+                <img
+                  className='animate-img-3 top_image_bounce'
+                  src='assets/img/banner/5.svg'
+                  alt='img'
+                />
+                <img
+                  className='main-img'
+                  src='assets/img/about/1.png'
+                  alt='img'
+                />
+              </div>
+            </div>
+          </div>
 
         
-          </div>
-            </div>
-
-            <div className="row pt-2">
-
-                 <div className="col-lg-6">
-<p>Galileo Data offers all type of data cleansing, data analysis, data scrubbing, data enrichment and
- data verification services. Outsourcing data cleansing services to us in India ensures an accurate and
-  up-to-date database, which yields the business results as per your desire. Our data cleansing service 
-  covers several functions, depending on the type of data and client specific need.</p>
-            </div>
-
-            <div className="col-lg-6">
-            <p>Our clients are able to take the headache out of data cleansing problems by outsourcing data enrichment services to us.
-             A data cleansing / enrichment service bureau like DOI with its expertise 
-            over the last several years can automate the process for greater quality, capacity, turnaround and value.</p>
-            </div>
-            </div>
-           
-        </div>
-
-     
         </div>
       </div>
-      {/* ==================== Work Process One end ====================*/}
+
+
 
         {/* Counter Area One */}
         <CounterAreaOne />
@@ -163,7 +193,7 @@ const Data_Cleaning = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Data Cleansing</span> 
+                  Reach our expert professionals   of <span>Reverse Appending</span> 
                    
                   </h2>
                   <p className='content'>
@@ -229,4 +259,4 @@ const Data_Cleaning = () => {
   );
 };
 
-export default Data_Cleaning;
+export default Reverse_Appending;

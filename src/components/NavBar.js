@@ -55,7 +55,7 @@ const NavBar = () => {
       ></div>
       {/* navbar start */}
       <nav className='navbar navbar-area navbar-expand-lg'>
-        <div className='container-fluid nav-container navbar-bg'>
+        <div className='container nav-container navbar-bg'>
           <div className='responsive-mobile-menu'>
             <button
               onClick={menuActive}
@@ -182,15 +182,15 @@ const NavBar = () => {
                   </li>
 
                   <li>
-                    <Link to=''>Data Segmentation</Link>
+                    <Link to='/Data_Segmentation'>Data Segmentation</Link>
                   </li>
 
                   <li>
-                    <Link to=''>Data Verifiction</Link>
+                    <Link to='/Data_Verification'>Data Verifiction</Link>
                   </li>
 
                   <li>
-                    <Link to=''>Reverse Appending</Link>
+                    <Link to='/Reverse_Appending'>Reverse Appending</Link>
                   </li>
 
                   
@@ -198,34 +198,34 @@ const NavBar = () => {
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>Digital Marketing</a>
-                {/* <ul className='sub-menu'>
+                <ul className='sub-menu'>
                   <li>
-                    <Link to='/about'>About Us</Link>
+                    <Link to='/Social_Media_Marketing'>Social Media Marketing</Link>
                   </li>
                   <li>
-                    <Link to='/team'>Team</Link>
+                    <Link to='/Web_Design'>Web Design</Link>
                   </li>
-                  <li>
+                {/*   <li>
                     <Link to='/team-details'>Team Details</Link>
                   </li>
                   <li>
                     <Link to='/case-study-details'>Case Study Details</Link>
-                  </li>
-                </ul> */}
+                  </li>*/}
+                </ul> 
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>GDPR</a>
-                {/* <ul className='sub-menu'>
-                  <li>
+               <ul className='sub-menu'>
+                   {/* <li>
                     <Link to='/blog'>Blog</Link>
-                  </li>
+                  </li>*/}
                   <li>
-                    <Link to='/blog-details'>Blog Details</Link>
+                    <Link to='/RDPSC'>RDPCS</Link>
                   </li>
-                </ul> */}
+                </ul> 
               </li>
               <li>
-                <Link to='/'>Contact Us</Link>
+                <Link to='/contact'>Contact Us</Link>
               </li>
             </ul>
           </div>

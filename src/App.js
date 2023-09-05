@@ -33,6 +33,12 @@ import Travel_and_Tourism from "./pages/Travel_and_Tourism";
 import Utility_And_Energy from "./pages/Utility_And_Energy";
 import Data_Cleaning from "./pages/Data_Cleaning";
 import Data_Appending from "./pages/Data_Appending";
+import Data_Segmentation from "./pages/Data_Segmentation";
+import Data_Verification from "./pages/Data_Verification";
+import Reverse_Appending from "./pages/Reverse_Appending";
+import Social_Media_Marketing from "./pages/Social_Media_Marketing";
+import Web_Design from "./pages/Web_Design";
+import RDPSC from "./pages/RDPSC";
 
 function App() {
   useEffect(() => {
@@ -77,10 +83,12 @@ function App() {
         <Route exact path='/Utility_And_Energy' element={<Utility_And_Energy />} />
         <Route exact path='/Data_Cleaning' element={<Data_Cleaning />} />
         <Route exact path='/Data_Appending' element={<Data_Appending />} />
-        
-        
-        
-        
+        <Route exact path='/Data_Segmentation' element={<Data_Segmentation />} />
+        <Route exact path='/Data_Verification' element={<Data_Verification />} />
+        <Route exact path='/Reverse_Appending' element={<Reverse_Appending />} />
+        <Route exact path='/Social_Media_Marketing' element={<Social_Media_Marketing />} />
+        <Route exact path='/Web_Design' element={<Web_Design />} />
+        <Route exact path='/RDPSC' element={<RDPSC />} />
         
       </Routes>
       <ScrollToTop smooth color='#246BFD' />

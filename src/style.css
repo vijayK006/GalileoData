@@ -10,6 +10,20 @@
 }
 
 @media only screen and (max-width : 600px) {
+
+    .con-card h3{
+        color: white;
+        
+        }
+
+        .contact-inner-card{
+            height: auto;
+            }
+        
+        .con-card p{
+        color: white;
+        }
+
 .breadcrumb-area {
     padding: 185px 0 50px;
 
@@ -20,11 +34,27 @@
 }
 
 @media only screen and (min-width : 998px){
-    
+    .con-card h3{
+color: white;
+
+}
+
+.con-card p{
+color: white;
+}
+
     .breadcrumb-area {
         padding: 222px 0 108px;
 
     }
+
+    .contact-inner-card{
+        height: 130px;
+        }
+
+        .contact-inner-info p{
+            font-size: 12px;
+        }
 
 .col-build-5{
     width: 20%;
@@ -32,10 +62,27 @@
 }
 
 @media only screen and (min-width : 1400px){
+
+.contact-inner-card{
+height: 115px;
+}
     .breadcrumb-area {
         padding: 222px 0 108px;
 
     }
+
+    .contact-inner-info p{
+        font-size: 12px;
+    }
+
+    .con-card h3{
+        color: white;
+        
+        }
+        
+        .con-card p{
+        color: white;
+        }
 
 .col-build-5{
     width: 20%;
@@ -104,4 +151,50 @@
 .navbar {
     background-color: black;
 }
+}
+
+.video-bg-map{
+position: relative;
+    
+}
+
+.video_content{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+.vidoe-banner{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.contact-inner-img img{
+height: 80px;
+width: 300px;
+padding-right:15px ;
+border-radius: 10px;
+}
+
+.contact-inner-card{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 13px 0px #d5d5d5;
+    
+}
+
+.single-work-process-inner-5  .inner-card-icon{
+    font-size: 40px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+    /* font-weight: 100; */
+}
+
+.single-work-process-inner-5:hover .inner-card-icon{
+    color: #246bfd;
+    cursor: pointer;
+
 }

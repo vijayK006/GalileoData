@@ -1,4 +1,5 @@
 import React from "react";
+import {AiOutlineGlobal} from 'react-icons/ai';
 
 const WorkProcessOne = () => {
   return (
@@ -32,7 +33,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/11.svg' alt='img' />
+                  <AiOutlineGlobal className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Web Design</h5>

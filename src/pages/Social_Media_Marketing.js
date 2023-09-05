@@ -1,3 +1,4 @@
+
 import React from "react";
 import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
@@ -11,20 +12,20 @@ import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
-const Data_Cleaning = () => {
+const Social_Media_Marketing = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Navigation Bar */}
-      <Breadcrumb title={"Data Cleansing and Enrichment Services"}
-      subcontent={"Galileo data B2B Data Segmentation service adds guaranteed deliverable email addresses to your existing corporate postal database."} />
+      <Breadcrumb title={"Social Media Marketing"}
+      subcontent={"Digital Media is the answer to approximately every question as the world is moving ahead and anywhere in those answers, your business wants to fit in. These days, business is not limited to transactions; the other aspects developing fame are web presence and word of mouth. We are in the middle of the top SMM companies and our result oriented approach gets your website online visibility with the better ranking and maximum Return on Investment."} />
 
-      <div className='about-area pd-top-120'>
+      <div className='about-area pt-5 pd-bottom-120'>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-5'>
+            <div className='col-lg-4'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
                 data-aos='fade-right'
@@ -54,29 +55,32 @@ const Data_Cleaning = () => {
               </div>
             </div>
             <div
-              className='col-lg-7'
+              className='col-lg-8'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
             >
               <div className='section-title mt-5 mt-lg-0'>
-                <h6 className='sub-title'>Data Cleaning</h6>
+                {/* <h6 className='sub-title'>Social Media Marketing</h6> */}
                 <h2 className='title'>
-                <span>Data Cleansing</span>   and Enrichment Services
-
+                Social <span>Media Marketing</span> 
+               
                 </h2>
 
                
 
                     <p className='content mb-4 mb-xl-5'>
-                    We facilitate our clients in taking strong and optimistic business decisions by cleansing and updating their
-                     valuable databases regularly. At Galileo data, we employ latest techniques to clean, de-duplicate, standardize,
-                      normalize, verify and validate critical data or information of your company. Also, our data cleansing and enrichment
-                       services team ensures that your products, marketing and clients databases are current, accurate and complete so that
-                        you can carry out successful marketing campaigns and business processes. The process of data cleansing is multi-faceted
-                         and a number of problems must be addressed to solve any particular data-cleansing problem. Our data enrichment
-                          professionals provide comprehensive data cleansing services to
-                     our clients for maintaining their data records accurately also, we reduce unnecessary costs wastage associated.</p>
+                    Our Approach We use the number of SEO/SEM and SMM techniques to assist you to build
+                     a strong and unparalleled reputation online. We examine your target audience, marketing objectives,
+                      exclusive selling points, and offline uniqueness to offer a consistent message to target audiences
+                       across online media. Our team injects positive content about your business on different search engines,
+                        blogs, online media, social networking websites and forums</p>
+
+                      <p className="content mb-4">
+                      We will discuss with you and offer information on how you can get the most out of your social media pages. 
+                      Tell us about your business and we will design a social media plan that will reach your target audience and improve online engagement.
+                      </p>
+
               </div>
             </div>
           </div>
@@ -85,48 +89,7 @@ const Data_Cleaning = () => {
         </div>
       </div>
 
-      {/* Work Process One */}
-          {/*==================== Work Process One start ====================*/}
-          <div className='work-process-area pd-top-100'>
-        <div className='container'>
-       
-        <div className="row pb-5">
-            <div className="col-lg-12">
 
-            <div className='section-title'>
-            <h2 className='title'>
-         
-         Why choose us for <span>Data Cleansing</span> services?
-
-            </h2>
-            {/* <h6 className='sub-title mt-3'>8 Steps to aggregating your targeted email lists</h6> */}
-
-        
-          </div>
-            </div>
-
-            <div className="row pt-2">
-
-                 <div className="col-lg-6">
-<p>Galileo Data offers all type of data cleansing, data analysis, data scrubbing, data enrichment and
- data verification services. Outsourcing data cleansing services to us in India ensures an accurate and
-  up-to-date database, which yields the business results as per your desire. Our data cleansing service 
-  covers several functions, depending on the type of data and client specific need.</p>
-            </div>
-
-            <div className="col-lg-6">
-            <p>Our clients are able to take the headache out of data cleansing problems by outsourcing data enrichment services to us.
-             A data cleansing / enrichment service bureau like DOI with its expertise 
-            over the last several years can automate the process for greater quality, capacity, turnaround and value.</p>
-            </div>
-            </div>
-           
-        </div>
-
-     
-        </div>
-      </div>
-      {/* ==================== Work Process One end ====================*/}
 
         {/* Counter Area One */}
         <CounterAreaOne />
@@ -163,7 +126,7 @@ const Data_Cleaning = () => {
                 <div className='section-title mb-0'>
                   <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                  Reach our expert professionals   of <span>Data Cleansing</span> 
+                  Reach our expert professionals   of <span>Social Media Marketing</span> 
                    
                   </h2>
                   <p className='content'>
@@ -229,4 +192,4 @@ const Data_Cleaning = () => {
   );
 };
 
-export default Data_Cleaning;
+export default Social_Media_Marketing;
