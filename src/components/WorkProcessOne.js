@@ -1,6 +1,7 @@
 import React from "react";
 import {AiOutlineGlobal} from 'react-icons/ai';
-
+import {TbUsersGroup} from 'react-icons/tb'
+import {LuMousePointerClick} from 'react-icons/lu'
 const WorkProcessOne = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <TbUsersGroup className="inner-card-icon"/>
                   
                 </div>
                 <div className='details'>
@@ -46,7 +47,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/12.svg' alt='img' />
+                <LuMousePointerClick className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>PPC (Pay Per Click)</h5>

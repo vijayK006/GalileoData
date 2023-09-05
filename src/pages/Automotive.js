@@ -10,6 +10,7 @@ import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import Automotion from "../img/Automotive Industry-01.png"
 import Automotion2 from "../img/Automotive Industry_2-01.png"
+import {BsDatabaseLock, BsEnvelopePaper} from 'react-icons/bs';
 
  import { FaCheckCircle } from 'react-icons/fa';
 
@@ -170,7 +171,8 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <BsEnvelopePaper className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}

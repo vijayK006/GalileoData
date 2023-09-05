@@ -9,6 +9,14 @@ import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 
+import {BsDatabaseLock, BsEnvelopePaper} from 'react-icons/bs';
+import {TbUserSearch, TbExchange} from  'react-icons/tb';
+import {VscServerProcess} from 'react-icons/vsc';
+import {AiOutlineMail} from 'react-icons/ai';
+import {MdOutlineMarkEmailRead} from 'react-icons/md';
+import {RiPassValidLine} from 'react-icons/ri';
+
+
 const About = () => {
   return (
     <>
@@ -72,7 +80,7 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  <BsDatabaseLock className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 1</p>
@@ -87,7 +95,7 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <TbUserSearch className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 2</p>
@@ -103,7 +111,8 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <VscServerProcess className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 3</p>
@@ -119,7 +128,8 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <AiOutlineMail className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 4</p>
@@ -135,7 +145,8 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <MdOutlineMarkEmailRead className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 5</p>
@@ -151,7 +162,8 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <BsEnvelopePaper className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 6</p>
@@ -167,7 +179,8 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <RiPassValidLine className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 7</p>
@@ -183,7 +196,8 @@ const About = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <TbExchange className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 <p className="process-count">Step 8</p>
