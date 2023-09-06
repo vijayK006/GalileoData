@@ -89,16 +89,7 @@ height: 115px;
 }
 }
 
-.thumb .about-icons{
-    color: black;
-    font-size: 30px;
-}
 
-
-.thumb  :hover .about-icons{
-    color: white;
-    font-size: 30px;
-}
 .title_Update{
     font-size: 17px;
 }
@@ -244,4 +235,36 @@ border-radius: 10px;
     cursor: pointer;
     color: black;
     transform: rotateY(180deg);
+}
+
+.thumber{
+    position: relative;
+    border-radius: 3px 50% 50% 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #f8f9fc;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.about-icons{
+    position: absolute;
+    font-size: 35px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-top-card:hover .thumber{
+ background-color: #246bfd;
+}
+
+.inner-top-card .thumber .about-icons{
+    color: black;
+}
+
+.inner-top-card:hover .about-icons{
+    color: white;
+
+    cursor: pointer;
 }

@@ -54,8 +54,8 @@ const AboutAreaOne = () => {
             
                 <div className='row '>
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
                       <BsDatabaseGear className="about-icons"/>
                       </div>
                       <div className='details'>
@@ -68,8 +68,8 @@ const AboutAreaOne = () => {
                     </div>
                   </div>
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
                       <BsPersonFillGear className="about-icons"/>
                       </div>
                       <div className='details'>
@@ -83,8 +83,8 @@ const AboutAreaOne = () => {
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
                       <BsDatabaseCheck className="about-icons"/>
                       </div>
                       <div className='details'>
@@ -98,8 +98,8 @@ const AboutAreaOne = () => {
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
                        <LiaIndustrySolid className="about-icons"/>
                       </div>
                       <div className='details'>

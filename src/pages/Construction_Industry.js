@@ -14,6 +14,8 @@ import construction2 from "../img/Run a Marketing Campaign with Construction-01.
 import construction3 from "../img/Why Choose Galileo Data Construction Companies-01.png"
 import construction4 from "../img/Galileo Data Construction Companies GET IN TOUCH-01.png"
 import { FaCheckCircle } from 'react-icons/fa';
+import { BsClipboardData } from 'react-icons/bs';
+
 
 const Construction_Industry = () => {
   return (
@@ -213,10 +215,12 @@ We have sourced the construction industry data from a multitude of event-driven 
                 </p>
                 <div className='row '>
                   <div className='col-md-12 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
-                      </div>
+                    <div className='inner-top-card'>
+
+                    <div className="thumber">
+                    <BsClipboardData  className="about-icons"/>
+                    </div>
+
                       <div className='details'>
                         <h5>International Data Compliance</h5>
                         <p>
@@ -229,9 +233,9 @@ We have sourced the construction industry data from a multitude of event-driven 
                     </div>
                   </div>
                   <div className='col-md-12 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <BsClipboardData  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>100% Tele-Verified Contractor Email Lists</h5>
@@ -253,9 +257,9 @@ We have sourced the construction industry data from a multitude of event-driven 
 
           <div className="row">
                 <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <BsClipboardData  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Seamless Integration with CMS</h5>
@@ -269,9 +273,9 @@ We have sourced the construction industry data from a multitude of event-driven 
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <BsClipboardData  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Market on Multiple Channels</h5>
