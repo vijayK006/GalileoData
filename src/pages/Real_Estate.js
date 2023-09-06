@@ -9,6 +9,10 @@ import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import NavbarFour from "../components/NavbarFour";
+import Estate from "../img/How Galileo Data Inc helps you-01.png"
+import switching from "../img/Switch up your Galileo Data Inc. marketing by asking questions like-01.png"
+import stay from "../img/Stay on Top of Qualified Leads Using Omnichannel Capabilities-01.png"
+import Reach from "../img/Reach our expert professionals of Retail Email List-01.png"
 
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -50,7 +54,7 @@ const Real_Estate = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={Estate}
                   alt='img'
                 />
               </div>
@@ -197,7 +201,7 @@ const Real_Estate = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={switching}
                   alt='img'
                 />
               </div>
@@ -396,7 +400,7 @@ const Real_Estate = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={stay}
                   alt='img'
                 />
               </div>
@@ -637,7 +641,7 @@ const Real_Estate = () => {
             />
             <img
               className='top_image_bounce animate-img-2'
-              src='assets/img/about/6.png'
+              src={'assets/img/about/6.png'}
               alt='img'
             />
             <div className='row'>
@@ -647,7 +651,7 @@ const Real_Estate = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={Reach} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
