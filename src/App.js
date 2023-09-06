@@ -96,7 +96,7 @@ function App() {
         
         
       </Routes>
-      <ScrollToTop smooth color='#246BFD' />
+      <ScrollToTop  smooth color='#246BFD' />
     </BrowserRouter>
   );
 }

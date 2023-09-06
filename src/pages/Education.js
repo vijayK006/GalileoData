@@ -8,6 +8,15 @@ import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import { RiSchoolLine } from 'react-icons/ri';
+import { HiOutlineUserGroup } from 'react-icons/hi';
+import {LiaPersonBoothSolid } from 'react-icons/lia';
+import {LiaSchoolSolid } from 'react-icons/lia';
+import {LuSchool2 } from 'react-icons/lu';
+import {PiShareNetworkLight } from 'react-icons/pi';
+import {LiaNewspaperSolid } from 'react-icons/lia';
+import {HiOutlineBuildingOffice } from 'react-icons/hi2';
+
 
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -220,7 +229,9 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <RiSchoolLine className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}
@@ -235,7 +246,7 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <HiOutlineUserGroup className="inner-card-icon"/>           
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 2</p> */}
@@ -250,7 +261,9 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <LiaPersonBoothSolid className="inner-card-icon"/>           
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 3</p> */}
@@ -263,7 +276,10 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <LiaSchoolSolid className="inner-card-icon"/>           
+
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 4</p> */}
@@ -276,7 +292,8 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <LuSchool2 className="inner-card-icon"/>           
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
@@ -289,7 +306,9 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <PiShareNetworkLight className="inner-card-icon"/>           
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
@@ -302,10 +321,12 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
+                <LiaNewspaperSolid className="inner-card-icon"/>           
+                
                 <h5 className='mt-3'>Test prep centers</h5>
                
                 </div>
@@ -315,7 +336,8 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <HiOutlineBuildingOffice className="inner-card-icon"/>           
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}

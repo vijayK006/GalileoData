@@ -13,7 +13,14 @@ import Automotion2 from "../img/Automotive Industry_2-01.png"
 import {BsDatabaseLock, BsEnvelopePaper} from 'react-icons/bs';
 
  import { FaCheckCircle } from 'react-icons/fa';
-
+ import { BsChatRightText } from 'react-icons/bs';
+ import { AiOutlineDeliveredProcedure } from 'react-icons/ai';
+ import { MdOutlineFlipCameraAndroid } from 'react-icons/md';
+ import { CgRowLast } from 'react-icons/cg';
+ import { GoMail } from 'react-icons/go';
+ 
+ 
+ 
 const Automotive = () => {
   return (
     <>
@@ -171,7 +178,7 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                <BsEnvelopePaper className="inner-card-icon"/>
+                <BsChatRightText className="inner-card-icon"/>
 
                 </div>
                 <div className='details'>
@@ -187,7 +194,9 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' />        */}
+                <AiOutlineDeliveredProcedure className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 2</p> */}
@@ -202,7 +211,9 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <MdOutlineFlipCameraAndroid className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 3</p> */}
@@ -215,7 +226,8 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <CgRowLast className="inner-card-icon"/>
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 4</p> */}
@@ -228,7 +240,9 @@ const Automotive = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <GoMail className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
