@@ -19,10 +19,17 @@ import { BiStore } from 'react-icons/bi';
 import { GiCrossedChains } from 'react-icons/gi';
 import { BsTelephoneOutbound } from 'react-icons/bs';
 import { MdOutlinePublishedWithChanges } from 'react-icons/md';
-import { PiHandshakeThin } from 'react-icons/pi';
+import { PiHandshakeThin,PiHandCoins } from 'react-icons/pi';
 import { BsGraphUp } from 'react-icons/bs';
 import { BsRecycle } from 'react-icons/bs';
+import { BsPeople } from 'react-icons/bs';
 import { RiUserSettingsLine } from 'react-icons/ri';
+import { HiOutlineLightBulb} from 'react-icons/hi';
+import { PiRecycleFill} from 'react-icons/pi';
+import { IoDiamondOutline} from 'react-icons/io5';
+import { GiCycle} from 'react-icons/gi';
+import { LuBrainCircuit} from 'react-icons/lu';
+import { AiOutlineCloudSync} from 'react-icons/ai';
 
 
 const Retail = () => {
@@ -395,9 +402,9 @@ const Retail = () => {
               
                 <div className='row '>
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <PiRecycleFill className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Identify best supply chain deals</h5>
@@ -405,9 +412,11 @@ const Retail = () => {
                     </div>
                   </div>
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      
+                      <IoDiamondOutline className="about-icons"/>
+
                       </div>
                       <div className='details'>
                         <h5>Engage high-value retailers</h5>
@@ -417,9 +426,11 @@ const Retail = () => {
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      
+                      <AiOutlineCloudSync className="about-icons"/>
+
                       </div>
                       <div className='details'>
                         <h5>Understand multichannel selling</h5>
@@ -429,9 +440,11 @@ const Retail = () => {
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      
+                      <LuBrainCircuit className="about-icons"/>
+
                       </div>
                       <div className='details'>
                         <h5>Gain industry-specific intelligence</h5>
@@ -441,9 +454,11 @@ const Retail = () => {
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      
+                      <GiCycle className="about-icons"/>
+
                       </div>
                       <div className='details'>
                         <h5>Retain both old and new customers</h5>
@@ -453,9 +468,11 @@ const Retail = () => {
                   </div>
 
                   <div className='col-md-6 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                    <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      
+                      <PiHandCoins className="about-icons"/>
+
                       </div>
                       <div className='details'>
                         <h5>Locate cost-effective innovation markets</h5>
@@ -588,7 +605,9 @@ const Retail = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-8'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <HiOutlineLightBulb className="inner-card-icon" />
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
@@ -601,7 +620,9 @@ const Retail = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-8'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <BsPeople className="inner-card-icon" />
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
