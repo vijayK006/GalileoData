@@ -20,9 +20,9 @@ const CounterAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='single-counter-inner'>
-                <div className='thumb'>
+                {/* <div className='thumb'>
                   <img src='assets/img/icon/5.svg' alt='img' />
-                </div>
+                </div> */}
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
                     {({ isVisible }) =>
@@ -45,9 +45,9 @@ const CounterAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='single-counter-inner'>
-                <div className='thumb'>
+                {/* <div className='thumb'>
                   <img src='assets/img/icon/6.svg' alt='img' />
-                </div>
+                </div> */}
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
                     {({ isVisible }) =>
@@ -70,9 +70,9 @@ const CounterAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='single-counter-inner'>
-                <div className='thumb'>
+                {/* <div className='thumb'>
                   <img src='assets/img/icon/7.svg' alt='img' />
-                </div>
+                </div> */}
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
                     {({ isVisible }) =>
@@ -95,9 +95,9 @@ const CounterAreaOne = () => {
               data-aos-duration='1500'
             >
               <div className='single-counter-inner'>
-                <div className='thumb'>
+                {/* <div className='thumb'>
                   <img src='assets/img/icon/8.svg' alt='img' />
-                </div>
+                </div> */}
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
                     {({ isVisible }) =>

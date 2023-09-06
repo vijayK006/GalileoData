@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from 'react';
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from '../../src/img/logo/galileodata-white-logo.png';
@@ -26,6 +26,29 @@ const NavBar = () => {
       };
     }
   }
+
+// active class in navbar
+const [selectedMenuItem, setSelectedMenuItem] = useState(
+  localStorage.getItem('selectedMenuItem') || null
+);
+
+// Handle menu item click
+const handleMenuItemClick = (menuItemId) => {
+  // Update the selected menu item
+  setSelectedMenuItem(menuItemId);
+
+  // Save the selected menu item to localStorage
+  localStorage.setItem('selectedMenuItem', menuItemId);
+};
+
+// Use useEffect to load the selected menu item from localStorage on initial render
+useEffect(() => {
+  const savedSelectedMenuItem = localStorage.getItem('selectedMenuItem');
+  if (savedSelectedMenuItem) {
+    setSelectedMenuItem(savedSelectedMenuItem);
+    console.log(savedSelectedMenuItem)
+  }
+}, []);
 
   return (
     <>
@@ -92,7 +115,7 @@ const NavBar = () => {
           >
             <ul className='navbar-nav menu-open text-lg-end'>
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/about'>About Us</Link></li>
+            <li><Link to='/about' >About Us</Link></li>
  <li className='menu-item-has-children'>
                 <a href='#'>Our Data</a>
                 <ul className='sub-menu'>
@@ -150,26 +173,7 @@ const NavBar = () => {
                 </ul>
               </li>
 
-              {/* <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
-                <ul className='sub-menu'>
-                  <li>
-                    <Link to='/'>Home 01</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-2'>Home 02</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-3'>Home 03</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-4'>Home 04</Link>
-                  </li>
-                  <li>
-                    <Link to='/index-5'>Home 05</Link>
-                  </li>
-                </ul>
-              </li> */}
+             
               <li className='menu-item-has-children'>
                 <a href='#'>Data Solutions</a>
                 <ul className='sub-menu'>
@@ -205,20 +209,13 @@ const NavBar = () => {
                   <li>
                     <Link to='/Web_Design'>Web Design</Link>
                   </li>
-                {/*   <li>
-                    <Link to='/team-details'>Team Details</Link>
-                  </li>
-                  <li>
-                    <Link to='/case-study-details'>Case Study Details</Link>
-                  </li>*/}
+              
                 </ul> 
               </li>
               <li className='menu-item-has-children'>
                 <a href='#'>GDPR</a>
                <ul className='sub-menu'>
-                   {/* <li>
-                    <Link to='/blog'>Blog</Link>
-                  </li>*/}
+                  
                   <li>
                     <Link to='/RDPSC'>RDPCS</Link>
                   </li>
@@ -229,15 +226,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          {/* <div className='nav-right-part nav-right-part-desktop align-self-center'>
-            <a className='navbar-phone' href='tel:'>
-              <span className='icon'>
-                <img src='assets/img/icon/1.png' alt='img' />
-              </span>
-              <span>Need help?</span>
-              <h5>(808) 555-0111</h5>
-            </a>
-          </div> */}
+        
         </div>
       </nav>
       {/* navbar end */}
