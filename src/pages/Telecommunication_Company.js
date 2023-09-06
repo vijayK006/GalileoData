@@ -9,6 +9,8 @@ import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import NavbarFour from "../components/NavbarFour";
+import tele_banner from '../img/Telecommunication.png'
+import tele_contact from '../img/telecommunicationcontact.png'
 
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -50,7 +52,7 @@ const Telecommunication_Company = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={tele_banner}
                   alt='img'
                 />
               </div>
@@ -362,7 +364,7 @@ const Telecommunication_Company = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={tele_contact} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
