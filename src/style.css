@@ -245,3 +245,16 @@ border-radius: 10px;
     color: black;
     transform: rotateY(180deg);
 }
+
+.single-work-process-inner-8  .inner-card-icon{
+    font-size: 40px;
+    color: #246bfd;
+    transition: all 0.2s ease-in-out;
+    /* transform: rotateY(0deg); */
+}
+
+.single-work-process-inner-8:hover .inner-card-icon{
+    cursor: pointer;
+    color: black;
+    transform: rotateY(180deg);
+}

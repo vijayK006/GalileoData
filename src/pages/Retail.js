@@ -15,6 +15,10 @@ import { FaCheckCircle } from 'react-icons/fa';
 import { PiBuildings } from 'react-icons/pi';
 import { IoRestaurantOutline } from 'react-icons/io5';
 import { BsShop } from 'react-icons/bs';
+import { BiStore } from 'react-icons/bi';
+import { GiCrossedChains } from 'react-icons/gi';
+import { BsTelephoneOutbound } from 'react-icons/bs';
+import { MdOutlinePublishedWithChanges } from 'react-icons/md';
 
 
 const Retail = () => {
@@ -226,11 +230,14 @@ const Retail = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <GiCrossedChains className="inner-card-icon" />
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 4</p> */}
                 <h5 className='mb-3'>Privately Owned Retail Chains.</h5>
+                
                 
                 </div>
               </div>
@@ -239,7 +246,8 @@ const Retail = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                  <BiStore className="inner-card-icon" />       
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
@@ -480,7 +488,9 @@ const Retail = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-8'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                  <BsTelephoneOutbound className="inner-card-icon" />
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}
@@ -495,7 +505,10 @@ const Retail = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-8'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                  <MdOutlinePublishedWithChanges className="inner-card-icon" />
+                  
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 2</p> */}
