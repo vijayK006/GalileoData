@@ -8,6 +8,8 @@ import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import commonly from "../img/Commonly Asked Questions-01.png";
+
 
 import {BsDatabaseLock, BsEnvelopePaper} from 'react-icons/bs';
 import {TbUserSearch, TbExchange} from  'react-icons/tb';
@@ -231,7 +233,7 @@ const About = () => {
               <div className='about-thumb-inner pt-lg-3'>
                 <img
                   className='main-img'
-                  src='assets/img/about/4.png'
+                  src={commonly}
                   alt='img'
                 />
                 <img

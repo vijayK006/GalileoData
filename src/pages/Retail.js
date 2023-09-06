@@ -8,8 +8,14 @@ import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
-
+import retail from "../img/Our professional experts can modify your manufacturing industry list by-01.png"
+import market from "../img/Gain Better Market Equity with Unique Lead Solutions-01.png"
+import GetIntouch from "../img/Reach our expert professionals of Retail Email List-01.png"
 import { FaCheckCircle } from 'react-icons/fa';
+import { PiBuildings } from 'react-icons/pi';
+import { IoRestaurantOutline } from 'react-icons/io5';
+import { BsShop } from 'react-icons/bs';
+
 
 const Retail = () => {
   return (
@@ -49,7 +55,7 @@ const Retail = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={retail}
                   alt='img'
                 />
               </div>
@@ -173,7 +179,7 @@ const Retail = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  <PiBuildings className="inner-card-icon" />
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}
@@ -188,7 +194,9 @@ const Retail = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                  <IoRestaurantOutline className="inner-card-icon" />
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 2</p> */}
@@ -203,7 +211,9 @@ const Retail = () => {
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                  <BsShop className="inner-card-icon" />
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 3</p> */}
@@ -350,7 +360,7 @@ const Retail = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={market}
                   alt='img'
                 />
               </div>
@@ -606,7 +616,7 @@ const Retail = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={GetIntouch} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

@@ -1,5 +1,6 @@
 import React from "react";
 import CounterAreaOne from "../components/CounterAreaOne";
+import touch from "../img/Get in touch Bringing Your Vision To Life-01.png";
 
 
 const ContactAreaOne = () => {
@@ -27,7 +28,7 @@ const ContactAreaOne = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={touch} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
