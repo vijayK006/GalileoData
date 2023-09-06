@@ -90,7 +90,7 @@
         color: #fff;
         img {
           height: auto;
-          max-width: 150px;
+          max-width: 210px;
         }
       }
     }
@@ -118,7 +118,7 @@
           }
           display: inline-block;
           font-weight: 500;
-          line-height: 80px;
+          line-height: 55px;
           text-transform: capitalize;
           &.menu-item-has-children {
             position: relative;
@@ -141,7 +141,7 @@
               content: "";
               position: absolute;
               right: -1px;
-              top: 40px;
+              top: 27.5px;
               height: 2px;
               width: 10px;
               background: white;
