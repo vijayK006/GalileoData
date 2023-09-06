@@ -39,6 +39,8 @@ import Reverse_Appending from "./pages/Reverse_Appending";
 import Social_Media_Marketing from "./pages/Social_Media_Marketing";
 import Web_Design from "./pages/Web_Design";
 import RDPSC from "./pages/RDPSC";
+import GDRP_Complaint from "./pages/GDRP_Complaint";
+import Footer_GDRP from "./components/Footer_GDRP";
 
 function App() {
   useEffect(() => {
@@ -89,6 +91,9 @@ function App() {
         <Route exact path='/Social_Media_Marketing' element={<Social_Media_Marketing />} />
         <Route exact path='/Web_Design' element={<Web_Design />} />
         <Route exact path='/RDPSC' element={<RDPSC />} />
+        <Route exact path='/GDRP_Complaint' element={<GDRP_Complaint />} />
+        <Route exact path='/Footer_GDRP' element={<Footer_GDRP />} />
+        
         
       </Routes>
       <ScrollToTop smooth color='#246BFD' />
