@@ -8,6 +8,8 @@ import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
+import logistic from "../img/Logistic and Distribution How Galileo Data Inc helps you-01-01.png"
+import Reach from "../img/Reach our expert professionals of Logistic and Distribution-01.png"
 
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -48,7 +50,7 @@ const Logistic_and_Distribution = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={logistic}
                   alt='img'
                 />
               </div>
@@ -172,7 +174,7 @@ const Logistic_and_Distribution = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={Reach} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

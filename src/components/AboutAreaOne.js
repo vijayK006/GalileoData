@@ -1,7 +1,7 @@
 import React from "react";
 import {BsDatabaseGear, BsPersonFillGear, BsDatabaseCheck} from "react-icons/bs";
 import {LiaIndustrySolid} from 'react-icons/lia'
-
+import marketing from "../img/Marketing-01.png"
 const AboutAreaOne = () => {
   return (
     <>
@@ -33,7 +33,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={marketing}
                   alt='img'
                 />
               </div>

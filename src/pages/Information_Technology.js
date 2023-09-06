@@ -11,6 +11,8 @@ import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle } from 'react-icons/fa';
 
+import Customize from "../img/Customize Your Information Technology-01.png"
+import touch from "../img/get in touch-01.png"
 const Information_Technology = () => {
   return (
     <>
@@ -48,7 +50,7 @@ const Information_Technology = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={Customize}
                   alt='img'
                 />
               </div>
@@ -301,7 +303,7 @@ engage prospects directly, close deals faster and enjoy blazing-fast conversions
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={touch} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

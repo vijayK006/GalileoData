@@ -10,14 +10,15 @@ import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import { RiSchoolLine } from 'react-icons/ri';
 import { HiOutlineUserGroup } from 'react-icons/hi';
-import {LiaPersonBoothSolid } from 'react-icons/lia';
+import {PiChalkboardTeacherLight } from 'react-icons/pi';
 import {LiaSchoolSolid } from 'react-icons/lia';
 import {LuSchool2 } from 'react-icons/lu';
 import {PiShareNetworkLight } from 'react-icons/pi';
 import {LiaNewspaperSolid } from 'react-icons/lia';
 import {HiOutlineBuildingOffice } from 'react-icons/hi2';
+import touch from '../img/Reach our expert professionals-01.png'
 
-
+import Educations from "../img/Customize Your Automotive Industry Email List-01.png"
 import { FaCheckCircle } from 'react-icons/fa';
 
 const Education = () => {
@@ -59,7 +60,7 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={Educations}
                   alt='img'
                 />
               </div>
@@ -262,7 +263,7 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
               <div className='single-work-process-inner-7'>
                 <div className='thumb mb-3'>
                   {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
-                <LiaPersonBoothSolid className="inner-card-icon"/>           
+                <PiChalkboardTeacherLight className="inner-card-icon"/>           
 
                 </div>
                 <div className='details'>
@@ -432,7 +433,7 @@ subcontent={"  Galileo Data provides the most accurate and latest Education Emai
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={touch} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
