@@ -13,10 +13,15 @@ import construction from "../img/Construction Industry Email List-01.png"
 import construction2 from "../img/Run a Marketing Campaign with Construction-01.png"
 import construction3 from "../img/Why Choose Galileo Data Construction Companies-01.png"
 import construction4 from "../img/Galileo Data Construction Companies GET IN TOUCH-01.png"
-import { FaCheckCircle } from 'react-icons/fa';
+import { FaCheckCircle, FaRegAddressCard } from 'react-icons/fa';
 import { BsClipboardData } from 'react-icons/bs';
-
-
+import {GoVerified} from 'react-icons/go';
+import {BiBookContent} from 'react-icons/bi';
+import {PiTelevisionBold} from 'react-icons/pi';
+import {MdOutlineEmojiEvents} from 'react-icons/md';
+import {RiSurveyLine} from 'react-icons/ri';
+import {AiOutlineUpSquare} from 'react-icons/ai';
+import {HiOutlineMail} from 'react-icons/hi'
 const Construction_Industry = () => {
   return (
     <>
@@ -235,7 +240,7 @@ We have sourced the construction industry data from a multitude of event-driven 
                   <div className='col-md-12 mt-4 mb-4'>
                     <div className='inner-top-card'>
                       <div className='thumber mb-3'>
-                      <BsClipboardData  className="about-icons"/>
+                      <GoVerified  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>100% Tele-Verified Contractor Email Lists</h5>
@@ -259,7 +264,7 @@ We have sourced the construction industry data from a multitude of event-driven 
                 <div className='col-md-6 mt-4 mb-4'>
                     <div className='inner-top-card'>
                       <div className='thumber mb-3'>
-                      <BsClipboardData  className="about-icons"/>
+                      <BiBookContent  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Seamless Integration with CMS</h5>
@@ -275,7 +280,7 @@ We have sourced the construction industry data from a multitude of event-driven 
                   <div className='col-md-6 mt-4 mb-4'>
                     <div className='inner-top-card'>
                       <div className='thumber mb-3'>
-                      <BsClipboardData  className="about-icons"/>
+                      <PiTelevisionBold  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Market on Multiple Channels</h5>
@@ -313,7 +318,8 @@ We have sourced the construction industry data from a multitude of event-driven 
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <FaRegAddressCard className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}
@@ -328,7 +334,8 @@ We have sourced the construction industry data from a multitude of event-driven 
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <RiSurveyLine className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 2</p> */}
@@ -343,7 +350,8 @@ We have sourced the construction industry data from a multitude of event-driven 
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <AiOutlineUpSquare className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 3</p> */}
@@ -356,7 +364,8 @@ We have sourced the construction industry data from a multitude of event-driven 
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <MdOutlineEmojiEvents className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 4</p> */}
@@ -369,11 +378,12 @@ We have sourced the construction industry data from a multitude of event-driven 
             <div className='col-build-5 col-md-6'>
               <div className='single-work-process-inner-6'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <HiOutlineMail className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
-                <h5 className='mb-3'>Email Campaigns& Virtual Events</h5>
+                <h5 className='mb-3'>Email Campaigns & Virtual Events</h5>
                
                 </div>
               </div>
