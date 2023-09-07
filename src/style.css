@@ -11,8 +11,22 @@
 
 @media only screen and (max-width : 600px) {
 
+    .video_content{
+        height: 250px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .vidoe-banner{
+        position: relative;
+    width: 100%;
+    bottom: 0%;
+    transform: translateY(-0%);
+    }
+
+
     .con-card h3{
-        color: white;
+        color: black;
         
         }
 
@@ -21,7 +35,7 @@
             }
         
         .con-card p{
-        color: white;
+        color: black;
         }
 
 .breadcrumb-area {
@@ -37,6 +51,12 @@
     .con-card h3{
 color: white;
 
+}
+
+.video_content{
+    height: 600px;
+    width: 100%;
+    background-color: black;
 }
 
 .con-card p{
@@ -111,6 +131,20 @@ height: 115px;
 }
 
 @media only screen and (min-width : 998px){
+
+    .video_content{
+        height: 600px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .vidoe-banner{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .footer-subscribe .footer-subscribe-inner.style-2 {
     display: flex !important;
     }
@@ -122,6 +156,21 @@ height: 115px;
     }
 }
 @media only screen and (min-width : 1200px){
+
+
+    .video_content{
+        height: 600px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .vidoe-banner{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .title_Update{
         font-size: 17px;
     }
@@ -130,6 +179,20 @@ height: 115px;
     }
 }
 @media only screen and (min-width : 1400px){
+
+    .video_content{
+        height: 600px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .vidoe-banner{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
     .footer-subscribe .footer-subscribe-inner.style-2 {
         display: flex !important;
         }
@@ -148,6 +211,7 @@ height: 115px;
 
 
 @media (max-width: 600px){
+
 .navbar {
     background-color: black;
 }
@@ -158,18 +222,7 @@ position: relative;
     
 }
 
-.video_content{
-    height: 600px;
-    width: 100%;
-    background-color: black;
-}
 
-.vidoe-banner{
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 .contact-inner-img img{
 height: 80px;
@@ -245,6 +298,32 @@ border-radius: 10px;
 }
 
 .single-work-process-inner-8:hover .inner-card-icon{
+    cursor: pointer;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.single-work-process-inner-9  .inner-card-icon{
+    font-size: 40px;
+    color: #246bfd;
+    transition: all 0.2s ease-in-out;
+    /* transform: rotateY(0deg); */
+}
+
+.single-work-process-inner-9:hover .inner-card-icon{
+    cursor: pointer;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.single-work-process-inner-10  .inner-card-icon{
+    font-size: 40px;
+    color: #246bfd;
+    transition: all 0.2s ease-in-out;
+    /* transform: rotateY(0deg); */
+}
+
+.single-work-process-inner-10:hover .inner-card-icon{
     cursor: pointer;
     color: black;
     transform: rotateY(180deg);

@@ -10,11 +10,20 @@ import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import NavbarFour from "../components/NavbarFour";
 import Estate from "../img/How Galileo Data Inc helps you-01.png"
-import switching from "../img/Switch up your Galileo Data Inc. marketing by asking questions like-01.png"
-import stay from "../img/Stay on Top of Qualified Leads Using Omnichannel Capabilities-01.png"
-import Reach from "../img/Reach our expert professionals of Retail Email List-01.png"
+import switching from "../img/Switch up your Galileo Data Inc. marketing by asking questions like-01.png";
+import stay from "../img/Stay on Top of Qualified Leads Using Omnichannel Capabilities-01.png";
+import Reach from "../img/Reach our expert professionals of Retail Email List-01.png";
 
 import { FaCheckCircle } from 'react-icons/fa';
+import {BsDatabaseGear, BsPersonFillGear, BsDatabaseCheck, BsPieChart} from "react-icons/bs";
+import {HiOutlineGlobe} from 'react-icons/hi';
+import {HiOutlineRocketLaunch} from 'react-icons/hi2';
+import {MdOutlineGroups3, MdOutlineLeaderboard, MdOutlineTouchApp} from 'react-icons/md'
+import {AiOutlineFieldTime} from 'react-icons/ai'
+import {GiBoltEye} from 'react-icons/gi';
+import {BiConversation} from 'react-icons/bi'
+import {TbSocial} from 'react-icons/tb'
+
 
 const Real_Estate = () => {
   return (
@@ -424,9 +433,9 @@ const Real_Estate = () => {
 
                 <div className='row '>
                   <div className='col-md-12 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
+                  <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <HiOutlineGlobe className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Discover primary growth circuits across preferred geographies and markets</h5>
@@ -434,9 +443,9 @@ const Real_Estate = () => {
                     </div>
                   </div>
                   <div className='col-md-12 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                  <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <MdOutlineGroups3 className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Gauge actionable TAM intelligence to define more nuanced audience personas.</h5>
@@ -446,9 +455,9 @@ const Real_Estate = () => {
                   </div>
 
                   <div className='col-md-12 mt-4 mb-4'>
-                    <div className='single-about-inner'>
-                      <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                  <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <AiOutlineFieldTime className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Send personalized marketing messages to engage prospects in real-time.</h5>
@@ -469,10 +478,10 @@ const Real_Estate = () => {
             <div className="col-lg-12">
               <div className="row">
                 <div className='col-md-4 mt-4 mb-4'>
-                  <div className='single-about-inner'>
-                    <div className='thumb mb-3'>
-                      <img src='assets/img/icon/3.png' alt='img' />
-                    </div>
+                <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <GiBoltEye className="about-icons"/>
+                      </div>
                     <div className='details'>
                       <h5>Host highly engaging webinars and virtual events to boost brand visibility.</h5>
 
@@ -481,10 +490,10 @@ const Real_Estate = () => {
                 </div>
 
                 <div className='col-md-4 mt-4 mb-4'>
-                  <div className='single-about-inner'>
-                    <div className='thumb mb-3'>
-                      <img src='assets/img/icon/3.png' alt='img' />
-                    </div>
+                <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <MdOutlineLeaderboard className="about-icons"/>
+                      </div>
                     <div className='details'>
                       <h5>Leverage digital assistance for timely follow-ups and responses for effective lead nurturing</h5>
 
@@ -493,10 +502,10 @@ const Real_Estate = () => {
                 </div>
 
                 <div className='col-md-4 mt-4 mb-4'>
-                  <div className='single-about-inner'>
-                    <div className='thumb mb-3'>
-                      <img src='assets/img/icon/3.png' alt='img' />
-                    </div>
+                <div className='inner-top-card'>
+                      <div className='thumber mb-3'>
+                      <BiConversation className="about-icons"/>
+                      </div>
                     <div className='details'>
                       <h5>Facilitate sales enablement to enrich funnel experience and drive higher conversion rates.</h5>
 
@@ -536,7 +545,7 @@ const Real_Estate = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-9'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  <BsPieChart className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   {/* <p className="process-count">Step 1</p> */}
@@ -552,7 +561,7 @@ const Real_Estate = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-9'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <MdOutlineTouchApp className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   {/* <p className="process-count">Step 2</p> */}
@@ -567,7 +576,7 @@ const Real_Estate = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-9'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <HiOutlineRocketLaunch className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   {/* <p className="process-count">Step 3</p> */}
@@ -580,12 +589,11 @@ const Real_Estate = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-work-process-inner-9'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <TbSocial className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   {/* <p className="process-count">Step 4</p> */}
-                  <h6 className='mb-3'>
-                    Run intuitive and enriching social media campaigns to enable a broader brand outreach</h6>
+                  <h6 className='mb-3'> Run intuitive and enriching social media campaigns to enable a broader brand outreach</h6>
 
                 </div>
               </div>
@@ -599,9 +607,6 @@ const Real_Estate = () => {
 
       <div className="container pd-bottom-100">
         <h2>Overcome High-Priority Realty Challenges at Speed</h2>
-
-
-
         <div className="row pt-4">
           <div className="col-lg-6">
             <ul className='single-list-inner style-check style-check'>

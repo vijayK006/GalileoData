@@ -40,7 +40,7 @@ const ContactMain = () => {
     <>
 
     <div className="video-bg-map">
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline="playsinline"   oncontextmenu="return false;"  preload="auto"  id="myVideo" className="video_content">
+    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline="playsinline" oncontextmenu="return false;"  preload="auto" id="myVideo" className="video_content">
         <source src={demo_video} type="video/mp4" />
         </video>
 
@@ -96,12 +96,12 @@ const ContactMain = () => {
 
       {/* ================= Contact Main start =================*/}
       <Toaster position='bottom-center' reverseOrder={false} />
-      <div className='contact-area pd-top-120 pd-bottom-120'>
+      <div className='contact-area pt-lg-5 pt-1 pd-bottom-120'>
         <div className='container'>
 
 <div className="row pb-5">
 
-  <div className="col-lg-4">
+  <div className="col-lg-4 pt-2 pb-2">
 <div className="contact-inner-card">
   <div className="d-flex align-items-center">
 <div className="contact-inner-img">
@@ -116,7 +116,7 @@ const ContactMain = () => {
 </div>
   </div>
 
-  <div className="col-lg-4">
+  <div className="col-lg-4 pt-2 pb-2">
 <div className="contact-inner-card">
   <div className="d-flex align-items-center">
 <div className="contact-inner-img">
@@ -131,7 +131,7 @@ const ContactMain = () => {
 </div>
   </div>
 
-  <div className="col-lg-4">
+  <div className="col-lg-4 pt-2 pb-2">
 <div className="contact-inner-card">
   <div className="d-flex align-items-center ">
 <div className="contact-inner-img">

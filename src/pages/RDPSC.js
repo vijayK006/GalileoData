@@ -11,6 +11,7 @@ import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessOne from "../components/WorkProcessOne";
 import { Link } from "react-router-dom";
 import { FaCheckCircle } from 'react-icons/fa';
+import { TbNotebook } from 'react-icons/tb';
 
 const RDPSC = () => {
   return (
@@ -92,7 +93,8 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                <TbNotebook className="inner-card-icon"/>
+
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 1</p> */}
