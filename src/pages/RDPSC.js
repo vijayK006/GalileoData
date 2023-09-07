@@ -12,6 +12,15 @@ import WorkProcessOne from "../components/WorkProcessOne";
 import { Link } from "react-router-dom";
 import { FaCheckCircle } from 'react-icons/fa';
 import { TbNotebook } from 'react-icons/tb';
+import {MdOutlineLocalPolice} from 'react-icons/md';
+import {LiaKeySolid} from 'react-icons/lia';
+import {BsDatabaseLock} from 'react-icons/bs';
+import {BsShieldLock} from 'react-icons/bs';
+import {BsFileLock} from 'react-icons/bs';
+import {SiSpeedtest} from 'react-icons/si';
+import {AiOutlineAudit} from 'react-icons/ai';
+import {PiRecycleFill} from 'react-icons/pi';
+
 
 const RDPSC = () => {
   return (
@@ -25,7 +34,7 @@ const RDPSC = () => {
 
       <div className='about-area pt-5 pd-bottom-120'>
         <div className='container'>
-          <div className='row'>
+          <div className='row '>
             <div className='col-lg-5'>
             <div
                 className='about-thumb-inner pe-xl-5 me-xl-5 '
@@ -109,7 +118,8 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <MdOutlineLocalPolice className="inner-card-icon"/>         
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 2</p> */}
@@ -124,7 +134,8 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <LiaKeySolid className="inner-card-icon"/>         
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 3</p> */}
@@ -139,7 +150,8 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <BsDatabaseLock className="inner-card-icon"/>                   
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 4</p> */}
@@ -155,7 +167,9 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <BsShieldLock className="inner-card-icon"/>                   
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 5</p> */}
@@ -170,7 +184,8 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <BsFileLock className="inner-card-icon"/>                   
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 6</p> */}
@@ -185,7 +200,9 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <SiSpeedtest className="inner-card-icon"/>                   
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 7</p> */}
@@ -200,7 +217,8 @@ const RDPSC = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <AiOutlineAudit className="inner-card-icon"/>                   
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 8</p> */}
@@ -215,7 +233,9 @@ const RDPSC = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
+                <PiRecycleFill className="inner-card-icon"/>                   
+                  
                 </div>
                 <div className='details'>
                 {/* <p className="process-count">Step 8</p> */}
