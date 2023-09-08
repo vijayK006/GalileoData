@@ -2,6 +2,9 @@ import React from "react";
 import {AiOutlineGlobal} from 'react-icons/ai';
 import {TbUsersGroup} from 'react-icons/tb'
 import {LuMousePointerClick} from 'react-icons/lu'
+
+import { Link } from "react-router-dom";
+
 const WorkProcessOne = () => {
   return (
     <>
@@ -18,7 +21,8 @@ const WorkProcessOne = () => {
           </div>
           <div className='row'>
             <div className='col-xl-4 col-md-6'>
-              <div className='single-work-process-inner-5'>
+            <Link to="/Social_Media_Marketing">
+                 <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
                 <TbUsersGroup className="inner-card-icon"/>
                   
@@ -30,9 +34,12 @@ const WorkProcessOne = () => {
                   </p>
                 </div>
               </div>
+            </Link>
+           
             </div>
             <div className='col-xl-4 col-md-6'>
-              <div className='single-work-process-inner-5'>
+            <Link to="/Web_Design">
+                   <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
                   <AiOutlineGlobal className="inner-card-icon"/>
                 </div>
@@ -43,9 +50,12 @@ const WorkProcessOne = () => {
                   </p>
                 </div>
               </div>
+            </Link>
+         
             </div>
             <div className='col-xl-4 col-md-6'>
-              <div className='single-work-process-inner-5'>
+            <Link to="/">
+                      <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
                 <LuMousePointerClick className="inner-card-icon"/>
                 </div>
@@ -56,6 +66,8 @@ const WorkProcessOne = () => {
                   </p>
                 </div>
               </div>
+            </Link>
+      
             </div>
           </div>
         </div>

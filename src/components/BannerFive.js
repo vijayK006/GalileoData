@@ -46,7 +46,7 @@ const BannerFive = () => {
                   data-aos='fade-right'
                   data-aos-delay='450'
                   data-aos-duration='1500'
-                  to=''
+                  to='/about'
                 >
                   
                   Read More <FaPlus />

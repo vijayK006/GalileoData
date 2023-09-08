@@ -1,16 +1,139 @@
 import React from "react";
 import { AiOutlineCar, AiFillBank, AiOutlineCloudUpload, AiOutlineShop, AiOutlineDatabase } from 'react-icons/ai'
-import { BsHospital, BsHouseGear, BsBook, BsTruck } from 'react-icons/bs';
+import { BsHospital, BsHouseGear, BsBook, BsTruck, BsDatabaseCheck } from 'react-icons/bs';
 import { LiaAmbulanceSolid, LiaWarehouseSolid, LiaPlaneDepartureSolid, LiaBroadcastTowerSolid } from 'react-icons/lia';
 import { IoBusOutline } from 'react-icons/io5';
 import { LuUtilityPole } from 'react-icons/lu';
+import {AiOutlineMail} from 'react-icons/ai';
+import {TbUsersGroup} from 'react-icons/tb'
+import {LuMousePointerClick} from 'react-icons/lu';
+import {MdOutlineCleaningServices} from 'react-icons/md'; 
+import {TbDatabasePlus} from 'react-icons/tb'
+import {BiPieChart} from 'react-icons/bi'
+import {GrPowerCycle} from 'react-icons/gr';
 
-
+import { Link } from "react-router-dom";
 const WorkProcessFour = () => {
   return (
     <>
+      
+      {/*==================== Work Process One start ====================*/}
+      <div className='work-process-area pd-bottom-90'>
+        <div className='container'>
+          <div className='section-title text-center'>
+     
+          </div>
+          <div className='row'>
+
+            <div className='col-xl-4 col-md-6'>
+            <Link to="/Data_Cleaning">
+<div className='single-work-process-inner-5'>
+                <div className='thumb mb-3'>
+                <MdOutlineCleaningServices className="inner-card-icon"/>
+                  
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>Data Cleansing</h5>
+                  <p className='content'>
+                  Clean, de-duplicate, standardize, normalize, verify and validate critical data of any of the company needs…
+                  </p>
+                </div>
+              </div>
+            </Link>  
+            </div>
+
+            <div className='col-xl-4 col-md-6'>
+            <Link to="/Data_Appending">
+<div className='single-work-process-inner-5'>
+                <div className='thumb mb-3'>
+                <TbDatabasePlus className="inner-card-icon"/>
+                  
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>Data Appending</h5>
+                  <p className='content'>
+                  Append demographic, behavioral and lifestyle data to your customer needs & improve your marketing results…
+                  </p>
+                </div>
+              </div>
+            </Link>
+            </div>
+
+            <div className='col-xl-4 col-md-6'>
+            <Link to="/Data_Segmentation">
+<div className='single-work-process-inner-5'>
+                <div className='thumb mb-3'>
+                <BiPieChart className="inner-card-icon"/>
+                  
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>Data Segmentation</h5>
+                  <p className='content'>
+                  Data segmentation will allow you to communicate a relevant and targeted message to each segment identified..,
+                  </p>
+                </div>
+              </div>
+            </Link>
+            </div>
+
+            <div className='col-xl-4 col-md-6'>
+            <Link to="/Data_Verification">
+<div className='single-work-process-inner-5'>
+                <div className='thumb mb-3'>
+                <BsDatabaseCheck className="inner-card-icon"/>
+                  
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>Data Verification</h5>
+                  <p className='content'>
+                  Ensuring the data that are gathered are as accurate as possible, and to minimize human and instrument errors…
+                  </p>
+                </div>
+              </div>
+            </Link>
+            </div>
+
+            <div className='col-xl-4 col-md-6'>
+            <Link to="/Email_Appending">
+<div className='single-work-process-inner-5'>
+                <div className='thumb mb-3'>
+                <AiOutlineMail className="inner-card-icon"/>
+                  
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>Email Appending</h5>
+                  <p className='content'>
+                  Processing of customer data and matching it with the data vendors database to obtain qualitative reach to the right customers…
+                  </p>
+                </div>
+              </div>
+            </Link>
+            </div>
+
+            <div className='col-xl-4 col-md-6'>
+            <Link to="/Reverse_Appending">
+<div className='single-work-process-inner-5'>
+                <div className='thumb mb-3'>
+                <GrPowerCycle className="inner-card-icon"/>
+                  
+                </div>
+                <div className='details'>
+                  <h5 className='mb-3'>Reverse Appending</h5>
+                  <p className='content'>
+                  Reverse lookup emails of your prospective customers can get high CTR for your campaigns…
+                  </p>
+                </div>
+              </div>
+            </Link>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {/* ==================== Work Process One end ====================*/}
+
       {/*==================== Work Process Three start ====================*/}
-      <div
+<div
         className='work-process-area bg-position-right pd-bottom-90'
         style={{ backgroundImage: 'url("./assets/img/bg/16.png")' }}
       >
@@ -27,7 +150,9 @@ const WorkProcessFour = () => {
           </div>
           <div className='work-process-area-inner-2'>
             <div className='row'>
+
               <div className='col-lg-3 col-md-6'>
+              <Link to="/Automotive">
                 <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
@@ -45,8 +170,11 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+                </Link>
               </div>
+
               <div className='col-lg-3 col-md-6'>
+              <Link to="/Banking_And_Financial">
                 <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
@@ -64,9 +192,12 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+                </Link>
               </div>
+
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Biotech_And_Pharmaceutical">
+  <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
                     src='assets/img/about/29.png'
@@ -83,9 +214,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+              
               </div>
+
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Construction_Industry">
+                    <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/30.png'
@@ -102,10 +237,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+            
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Education">
+                  <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/29.png'
@@ -122,10 +260,14 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+
+              
               </div>
 
 
               <div className='col-lg-3 col-md-6'>
+              <Link to="/Hospitality">
                 <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
@@ -143,10 +285,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+                
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Information_Technology">
+                   <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/30.png'
@@ -163,10 +308,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+             
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Logistic_and_Distribution">
+   <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/29.png'
@@ -183,10 +331,12 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Real_Estate">
+                     <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/30.png'
@@ -203,10 +353,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+           
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Retail">
+                       <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/29.png'
@@ -223,10 +376,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+         
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/">
+                   <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/30.png'
@@ -242,9 +398,12 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+             
               </div>
 
               <div className='col-lg-3 col-md-6'>
+              <Link to="/Travel_and_Tourism">
                 <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
@@ -262,10 +421,12 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Telecommunication_Company">
+                  <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/30.png'
@@ -282,10 +443,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+              
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/Utility_And_Energy ">
+                 <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/29.png'
@@ -303,10 +467,13 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+               
               </div>
 
               <div className='col-lg-3 col-md-6'>
-                <div className='single-work-process-inner style-2 text-center'>
+              <Link to="/">
+                   <div className='single-work-process-inner style-2 text-center'>
                 <img
                     className='line-img'
                     src='assets/img/about/30.png'
@@ -322,6 +489,8 @@ const WorkProcessFour = () => {
                     </p>
                   </div>
                 </div>
+              </Link>
+             
               </div>
 
             </div>

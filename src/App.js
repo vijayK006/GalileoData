@@ -41,6 +41,7 @@ import Web_Design from "./pages/Web_Design";
 import RDPSC from "./pages/RDPSC";
 import GDRP_Complaint from "./pages/GDRP_Complaint";
 import Footer_GDRP from "./components/Footer_GDRP";
+import Email_Appending from "./pages/Email_Appending";
 
 function App() {
   useEffect(() => {
@@ -93,6 +94,8 @@ function App() {
         <Route exact path='/RDPSC' element={<RDPSC />} />
         <Route exact path='/GDRP_Complaint' element={<GDRP_Complaint />} />
         <Route exact path='/Footer_GDRP' element={<Footer_GDRP />} />
+        <Route exact path='/Email_Appending' element={<Email_Appending />} />
+        
         
         
       </Routes>

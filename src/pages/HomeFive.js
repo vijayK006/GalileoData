@@ -15,7 +15,6 @@ import WorkProcessOne from "../components/WorkProcessOne";
 import NavBar from "../components/NavBar";
 
 
-
 const HomeFive = () => {
   return (
     <>
@@ -27,17 +26,6 @@ const HomeFive = () => {
 
       {/* About Area Five */}
       <AboutAreaFive />
-
-      {/* Service Area Five
-      <ServiceAreaFive /> */}
-
-      {/* Case Study Area Two */}
-      {/* <CaseStudyAreaTwo /> */}
-
-      {/* About Area Six */}
-      {/* <AboutAreaSix /> */}
-
-     
 
       {/* Work Process Four */}
       <WorkProcessFour />
