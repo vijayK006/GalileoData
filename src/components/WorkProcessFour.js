@@ -10,7 +10,7 @@ import {LuMousePointerClick} from 'react-icons/lu';
 import {MdOutlineCleaningServices} from 'react-icons/md'; 
 import {TbDatabasePlus} from 'react-icons/tb'
 import {BiPieChart} from 'react-icons/bi'
-import {GrPowerCycle} from 'react-icons/gr';
+import {GiRecycle} from 'react-icons/gi';
 
 import { Link } from "react-router-dom";
 const WorkProcessFour = () => {
@@ -114,7 +114,7 @@ const WorkProcessFour = () => {
             <Link to="/Reverse_Appending">
 <div className='single-work-process-inner-5'>
                 <div className='thumb mb-3'>
-                <GrPowerCycle className="inner-card-icon"/>
+                <GiRecycle className="inner-card-icon"/>
                   
                 </div>
                 <div className='details'>
