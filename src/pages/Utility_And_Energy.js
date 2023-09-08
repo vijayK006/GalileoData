@@ -11,7 +11,8 @@ import WorkProcessOne from "../components/WorkProcessOne";
 import NavbarFour from "../components/NavbarFour";
 
 import { FaCheckCircle } from 'react-icons/fa';
-
+import choose from "../img/Choose the right step of the ladder and reach decision makers, professionals and executives of Utility Industry using our Utility Industry Email List.-01.png"
+import Reach from "../img/Reach our expert professionals of Utility _ Energy Email List-01.png"
 const Utility_And_Energy = () => {
   return (
     <>
@@ -50,7 +51,7 @@ const Utility_And_Energy = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={choose}
                   alt='img'
                 />
               </div>
@@ -135,7 +136,7 @@ US, UK, Russia, India, China, Europe, Australia,
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={Reach} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

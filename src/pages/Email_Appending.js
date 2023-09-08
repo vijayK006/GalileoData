@@ -23,6 +23,14 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {AiOutlineGlobal} from 'react-icons/ai';
 import {TbUsersGroup} from 'react-icons/tb'
 import {LuMousePointerClick} from 'react-icons/lu'
+import {MdOutlineCleaningServices} from 'react-icons/md'
+import {MdOutlineMarkEmailRead,MdOutlineMarkEmailUnread,MdAlternateEmail,MdOutlineAttachEmail} from 'react-icons/md'
+import {AiOutlineDeliveredProcedure} from 'react-icons/ai'
+import {BsGraphUpArrow} from 'react-icons/bs'
+import {LuDatabaseBackup} from 'react-icons/lu'
+import {BsDatabaseCheck} from 'react-icons/bs'
+// import {BsDatabaseCheck} from 'react-icons/bs'
+
 
 const Email_Appending = () => {
   return (
@@ -209,7 +217,7 @@ const Email_Appending = () => {
                     <div className='inner-top-card'>
 
                     <div className="thumber mb-3">
-                    <BsClipboardData  className="about-icons"/>
+                    <GoVerified  className="about-icons"/>
                     </div>
 
                       <div className='details'>
@@ -224,7 +232,7 @@ const Email_Appending = () => {
                   <div className='col-md-3 mt-4 mb-4'>
                     <div className='inner-top-card'>
                       <div className='thumber mb-3'>
-                      <GoVerified  className="about-icons"/>
+                      <MdOutlineCleaningServices  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Cleanse</h5>
@@ -240,7 +248,7 @@ const Email_Appending = () => {
                     <div className='inner-top-card'>
 
                     <div className="thumber mb-3">
-                    <BsClipboardData  className="about-icons"/>
+                    <MdOutlineMarkEmailRead  className="about-icons"/>
                     </div>
 
                       <div className='details'>
@@ -255,7 +263,7 @@ const Email_Appending = () => {
                   <div className='col-md-3 mt-4 mb-4'>
                     <div className='inner-top-card'>
                       <div className='thumber mb-3'>
-                      <GoVerified  className="about-icons"/>
+                      <AiOutlineDeliveredProcedure  className="about-icons"/>
                       </div>
                       <div className='details'>
                         <h5>Deliver</h5>
@@ -453,7 +461,7 @@ const Email_Appending = () => {
                     <div className='inner-top-card'>
 
                     <div className="thumber mb-3">
-                    <BsClipboardData  className="about-icons"/>
+                    <BsGraphUpArrow  className="about-icons"/>
                     </div>
 
                       <div className='details'>
@@ -471,7 +479,7 @@ const Email_Appending = () => {
                      <div className='inner-top-card'>
  
                      <div className="thumber mb-3">
-                     <BsClipboardData  className="about-icons"/>
+                     <AiOutlineDeliveredProcedure  className="about-icons"/>
                      </div>
  
                        <div className='details'>
@@ -527,7 +535,7 @@ const Email_Appending = () => {
     <div className='inner-top-card'>
 
 <div className="thumber mb-3">
-<BsClipboardData  className="about-icons"/>
+<LuDatabaseBackup  className="about-icons"/>
 </div>
 
   <div className='details'>
@@ -544,7 +552,7 @@ const Email_Appending = () => {
     <div className='inner-top-card'>
 
 <div className="thumber mb-3">
-<BsClipboardData  className="about-icons"/>
+<BsDatabaseCheck  className="about-icons"/>
 </div>
 
   <div className='details'>
@@ -561,7 +569,7 @@ const Email_Appending = () => {
     <div className='inner-top-card'>
 
 <div className="thumber mb-3">
-<BsClipboardData  className="about-icons"/>
+<MdOutlineMarkEmailRead  className="about-icons"/>
 </div>
 
   <div className='details'>
@@ -597,7 +605,7 @@ const Email_Appending = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                <TbUsersGroup className="inner-card-icon"/>
+                <MdOutlineMarkEmailUnread className="inner-card-icon"/>
                   
                 </div>
                 <div className='details'>
@@ -612,7 +620,7 @@ const Email_Appending = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                  <AiOutlineGlobal className="inner-card-icon"/>
+                  <MdAlternateEmail className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Consumer Email Appending Service</h5>
@@ -627,7 +635,7 @@ const Email_Appending = () => {
             <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-4'>
                 <div className='thumb mb-3'>
-                <LuMousePointerClick className="inner-card-icon"/>
+                <MdOutlineAttachEmail className="inner-card-icon"/>
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Reverse Email Appending Service</h5>
