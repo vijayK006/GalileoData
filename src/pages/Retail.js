@@ -1,13 +1,8 @@
 import React from "react";
-import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
 import CounterAreaOne from "../components/CounterAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
 import retail from "../img/Our professional experts can modify your manufacturing industry list by-01.png"
 import market from "../img/Gain Better Market Equity with Unique Lead Solutions-01.png"
 import GetIntouch from "../img/Reach our expert professionals of Retail Email List-01.png"

@@ -1,23 +1,13 @@
 import React from "react";
-import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
 import CounterAreaOne from "../components/CounterAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
 
 import { FaCheckCircle, FaRegAddressCard } from 'react-icons/fa';
 import { BsClipboardData } from 'react-icons/bs';
 import {GoVerified} from 'react-icons/go';
-import {BiBookContent} from 'react-icons/bi';
-import {PiTelevisionBold} from 'react-icons/pi';
-import {MdOutlineEmojiEvents} from 'react-icons/md';
-import {RiSurveyLine} from 'react-icons/ri';
-import {AiOutlineUpSquare} from 'react-icons/ai';
-import {HiOutlineMail} from 'react-icons/hi'
+
 
 
 import {AiOutlineGlobal} from 'react-icons/ai';

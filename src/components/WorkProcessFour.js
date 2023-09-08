@@ -120,7 +120,7 @@ const WorkProcessFour = () => {
                 <div className='details'>
                   <h5 className='mb-3'>Reverse Appending</h5>
                   <p className='content'>
-                  Reverse lookup emails of your prospective customers can get high CTR for your campaigns…
+                  Reverse lookup emails of your prospective customers can get high CTR for your campaigns … 
                   </p>
                 </div>
               </div>

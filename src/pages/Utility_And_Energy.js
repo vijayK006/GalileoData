@@ -1,14 +1,8 @@
 import React from "react";
-import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
 import CounterAreaOne from "../components/CounterAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
-import NavbarFour from "../components/NavbarFour";
 
 import { FaCheckCircle } from 'react-icons/fa';
 import choose from "../img/Choose the right step of the ladder and reach decision makers, professionals and executives of Utility Industry using our Utility Industry Email List.-01.png"

@@ -1,21 +1,15 @@
 import React from "react";
-import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
 import CounterAreaOne from "../components/CounterAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
-import NavbarFour from "../components/NavbarFour";
 import Estate from "../img/How Galileo Data Inc helps you-01.png"
 import switching from "../img/Switch up your Galileo Data Inc. marketing by asking questions like-01.png";
 import stay from "../img/Stay on Top of Qualified Leads Using Omnichannel Capabilities-01.png";
 import Reach from "../img/Reach our expert professionals of Retail Email List-01.png";
 
 import { FaCheckCircle } from 'react-icons/fa';
-import {BsDatabaseGear, BsPersonFillGear, BsDatabaseCheck, BsPieChart} from "react-icons/bs";
+import {BsPieChart} from "react-icons/bs";
 import {HiOutlineGlobe} from 'react-icons/hi';
 import {HiOutlineRocketLaunch} from 'react-icons/hi2';
 import {MdOutlineGroups3, MdOutlineLeaderboard, MdOutlineTouchApp} from 'react-icons/md'

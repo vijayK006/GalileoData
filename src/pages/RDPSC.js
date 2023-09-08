@@ -1,16 +1,10 @@
 
 import React from "react";
-import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
 import CounterAreaOne from "../components/CounterAreaOne";
-import FaqAreaOne from "../components/FaqAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
 import { Link } from "react-router-dom";
-import { FaCheckCircle } from 'react-icons/fa';
 import { TbNotebook } from 'react-icons/tb';
 import {MdOutlineLocalPolice} from 'react-icons/md';
 import {LiaKeySolid} from 'react-icons/lia';
