@@ -1,11 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaPlus } from "react-icons/fa";
-import ModalVideo from "react-modal-video";
 import { Link } from "react-router-dom";
 import banner from '../img/HomeBanner.png';
 
 const BannerFive = () => {
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/* ================== BannerFive Start ==================*/}

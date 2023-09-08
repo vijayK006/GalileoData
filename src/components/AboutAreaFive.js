@@ -1,10 +1,8 @@
 import React from "react";
-import { FaArrowRight, FaCheckCircle } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
 import { IoStarSharp } from "react-icons/io5";
 
-import { Link } from "react-router-dom";
 import whyGaligio from '../img/whyGaliliodata.jpg';
-import homepage from "../img/homepage-01.png"
 
 const AboutAreaFive = () => {
   return (

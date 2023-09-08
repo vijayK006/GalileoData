@@ -1,5 +1,4 @@
 import React from "react";
-import CounterAreaOne from "../components/CounterAreaOne";
 import touch from "../img/Get in touch Bringing Your Vision To Life-01.png";
 
 

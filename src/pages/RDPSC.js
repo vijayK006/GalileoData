@@ -225,7 +225,7 @@ const RDPSC = () => {
               </div>
             </div>
 
-            <div className='col-xl-3 col-md-6'>
+            <div className='col-xl-4 col-md-6'>
               <div className='single-work-process-inner-10'>
                 <div className='thumb mb-3'>
                   {/* <img src='assets/img/icon/10.svg' alt='img' /> */}
