@@ -4,8 +4,9 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
+import dataSegmentationImg from '../img/DataSegmentation-01.png';
+import dataSegmentationContactImg from '../img/DataSegmentationContact.png';
 
-import { FaCheckCircle } from 'react-icons/fa';
 
 const Data_Segmentation = () => {
   return (
@@ -44,7 +45,7 @@ const Data_Segmentation = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={dataSegmentationImg}
                   alt='img'
                 />
               </div>
@@ -156,7 +157,7 @@ Personalized touch is added to the way customers are approached.
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={dataSegmentationContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

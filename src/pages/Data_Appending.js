@@ -3,7 +3,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-
+import dataAppendingImg from '../img/Data Appending-01.png';
+import dataAppendingContactImg from '../img/dataAppendingContact.png';
 
 const Data_Appending = () => {
   return (
@@ -42,7 +43,7 @@ const Data_Appending = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={dataAppendingImg}
                   alt='img'
                 />
               </div>
@@ -152,7 +153,7 @@ const Data_Appending = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={dataAppendingContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

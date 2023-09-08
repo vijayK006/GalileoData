@@ -21,7 +21,11 @@ import {LuDatabaseBackup} from 'react-icons/lu'
 import {BsDatabaseCheck} from 'react-icons/bs'
 // import {BsDatabaseCheck} from 'react-icons/bs'
 
-
+import EmailAppending1 from '../img/EmailAppendingServices-01.png';
+import EmailAppending2 from '../img/Email appendservices-02.png';
+import EmailAppending3 from '../img/EmailAppending-03.png';
+import EmailAppendingContact from '../img/Email AppendingContact.png';
+ 
 const Email_Appending = () => {
   return (
     <>
@@ -59,7 +63,7 @@ const Email_Appending = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={EmailAppending1}
                   alt='img'
                 />
               </div>
@@ -353,7 +357,7 @@ const Email_Appending = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={EmailAppending2}
                   alt='img'
                 />
               </div>
@@ -513,7 +517,7 @@ const Email_Appending = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={EmailAppending3}
                   alt='img'
                 />
               </div>
@@ -665,7 +669,7 @@ const Email_Appending = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={EmailAppendingContact} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

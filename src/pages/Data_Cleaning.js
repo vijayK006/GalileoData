@@ -3,7 +3,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-
+import datacleanImg from '../img/DataCleaning01.png'
+import datacleanContactImg from '../img/dataCleaningContact.png'
 
 const Data_Cleaning = () => {
   return (
@@ -42,7 +43,7 @@ const Data_Cleaning = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={datacleanImg}
                   alt='img'
                 />
               </div>
@@ -146,7 +147,7 @@ const Data_Cleaning = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={datacleanContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

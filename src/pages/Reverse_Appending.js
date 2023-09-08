@@ -4,6 +4,9 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
+import reverseAppendingImg from '../img/Reverse Appending-01.png';
+import reverseAppendingCASSImg from '../img/ReverseAppendingCASSCertified.png';
+import reverseAppendingContactImg from '../img/ReverseAppendingContact.png';
 
 
 const Reverse_Appending = () => {
@@ -43,7 +46,7 @@ const Reverse_Appending = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={reverseAppendingImg}
                   alt='img'
                 />
               </div>
@@ -139,7 +142,7 @@ const Reverse_Appending = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={reverseAppendingCASSImg}
                   alt='img'
                 />
               </div>
@@ -176,7 +179,7 @@ const Reverse_Appending = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={reverseAppendingContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

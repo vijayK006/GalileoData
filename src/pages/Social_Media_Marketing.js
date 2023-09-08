@@ -4,7 +4,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-
+import socialmediaImg from '../img/SocialMedia Marketing-01.png';
+import socialmediaContactImg from '../img/SocialMedia MarketingContact.png';
 
 const Social_Media_Marketing = () => {
   return (
@@ -43,7 +44,7 @@ const Social_Media_Marketing = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={socialmediaImg}
                   alt='img'
                 />
               </div>
@@ -109,7 +110,7 @@ const Social_Media_Marketing = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={socialmediaContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

@@ -14,7 +14,8 @@ import {BsFileLock} from 'react-icons/bs';
 import {SiSpeedtest} from 'react-icons/si';
 import {AiOutlineAudit} from 'react-icons/ai';
 import {PiRecycleFill} from 'react-icons/pi';
-
+import RDPSCImg from '../img/Safety Controls.png';
+import RDPSContact from '../img/SafetyControlContact.png';
 
 const RDPSC = () => {
   return (
@@ -53,7 +54,7 @@ const RDPSC = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={RDPSCImg}
                   alt='img'
                 />
               </div>
@@ -271,7 +272,7 @@ const RDPSC = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={RDPSContact} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

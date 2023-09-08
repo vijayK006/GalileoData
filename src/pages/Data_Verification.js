@@ -4,7 +4,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-
+import datVeriImg from '../img/DataVerification-01.png';
+import datVeriContactImg from '../img/DataVeriContact.png';
 
 const Data_Verification = () => {
   return (
@@ -43,7 +44,7 @@ const Data_Verification = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={datVeriImg}
                   alt='img'
                 />
               </div>
@@ -116,7 +117,7 @@ const Data_Verification = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={datVeriContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
@@ -169,10 +170,7 @@ const Data_Verification = () => {
                         </div>
                       </div>
                       <div className='col-12'>
-                        <a
-                          className='btn btn-black mt-0 w-100 border-radius-5'
-                          href='#'
-                        >
+                        <a  className='btn btn-black mt-0 w-100 border-radius-5'  href='#' >
                           Submit now
                         </a>
                       </div>

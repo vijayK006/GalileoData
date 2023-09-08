@@ -4,7 +4,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-
+import webDesignImg from '../img/WebDesign-01.png';
+import webDesignContactImg from '../img/WebDesignContact.png';
 
 const Web_Design = () => {
   return (
@@ -43,7 +44,7 @@ const Web_Design = () => {
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src={webDesignImg}
                   alt='img'
                 />
               </div>
@@ -108,7 +109,7 @@ We are a close team of creative’s, web designers & web developers who work joi
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/4.png' alt='img' />
+                <img className='w-100' src={webDesignContactImg} alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'
