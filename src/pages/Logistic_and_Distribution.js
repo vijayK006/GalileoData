@@ -3,8 +3,8 @@ import Breadcrumb from "../components/Breadcrumb";
 import CounterAreaOne from "../components/CounterAreaOne";
 import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
-import logistic from "../img/Logistic and Distribution How Galileo Data Inc helps you-01-01.png"
-import Reach from "../img/Reach our expert professionals of Logistic and Distribution-01.png"
+import logistic from "../img/Logistic and Distribution How Galileo Data Inc helps you-01-01.png";
+import Reach from "../img/Reach our expert professionals of Logistic and Distribution-01.png";
 
 import { FaCheckCircle } from 'react-icons/fa';
 

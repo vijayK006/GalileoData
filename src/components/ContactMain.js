@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
-import demo_video from '../video/map.mp4';
+import demo_video from '../video/GalileoGIF.gif';
 
 import haeadquaters from '../img/symbols/Headquaters.jpg'
 import Licencs from '../img/symbols/Licencs.jpg'
@@ -40,10 +40,14 @@ const ContactMain = () => {
     <>
 
     <div className="video-bg-map">
-    <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline="playsinline" oncontextmenu="return false;"  preload="auto" id="myVideo" className="video_content">
+    {/* <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline="playsinline" oncontextmenu="return false;"  preload="auto" id="myVideo" className="video_content">
         <source src={demo_video} type="video/mp4" />
-        </video>
-
+        </video> */}
+        
+<div className="d-flex justify-content-center" style={{backgroundColor:"black"}}>
+<img src={demo_video} className="video_content" alt="galilioDatas"/>
+</div>
+ 
         <div className="vidoe-banner">
 <div className="container">
   <div className="container">
